@@ -1,8 +1,9 @@
 name: Build/release
 
-on: 
+on:
+  workflow_dispatch:
   push:
-    tags: 
+    tags:
       - '*'
 
 jobs:
@@ -38,8 +39,8 @@ jobs:
           node-version: 14
       - name: Yarn make
         run: |
-             yarn
-             yarn make             
+          yarn
+          yarn make
       - name: Upload windows asset
         if: matrix.os == 'windows-latest'
         uses: actions/upload-release-asset@v1
@@ -47,8 +48,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create_release.outputs.upload_url }}
-          asset_name: hajimari-no-overlay-win32.zip
-          asset_path: ./out/make/zip/win32/x64/hajimari-no-overlay-win32-x64-0.0.1.zip
+          asset_name: kuro-no-overlay-win32.zip
+          asset_path: ./out/make/zip/win32/x64/kuro-no-overlay-win32-x64-0.0.1.zip
           asset_content_type: application/zip
       - name: Upload mac asset
         if: matrix.os == 'macos-latest'
@@ -57,6 +58,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ needs.create_release.outputs.upload_url }}
-          asset_name: hajimari-no-overlay-macos.zip
-          asset_path: ./out/make/zip/darwin/x64/hajimari-no-overlay-darwin-x64-0.0.1.zip
+          asset_name: kuro-no-overlay-macos.zip
+          asset_path: ./out/make/zip/darwin/x64/kuro-no-overlay-darwin-x64-0.0.1.zip
           asset_content_type: application/zip

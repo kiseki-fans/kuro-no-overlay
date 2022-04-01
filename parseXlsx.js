@@ -12,11 +12,11 @@ function download(url, cb) {
   });
 }
 
-const sheetsToIgnore = ["Misc", "Minigames", "Episodes"];
+const sheetsToIgnore = ["Misc", "Minigames"];
 
 module.exports = function downloadAndParseTranslations(cb) {
   download(
-    "https://docs.google.com/spreadsheets/d/16vqUNRQRB5CimIOVHfdyT5Yp6YOPzzVkR_9vtrU1wtI/export?format=xlsx",
+    "https://docs.google.com/spreadsheets/d/1qnCazs0_I1mUusiSMhySvCLsqPrSnDBr9EFB8N6bY-w/export?format=xlsx",
     function xlsxToJson(buffer) {
       const file = xlsx.read(buffer, { type: "buffer" });
       const translations = {
@@ -31,22 +31,9 @@ module.exports = function downloadAndParseTranslations(cb) {
                 header: ["name", "en", "jp"],
                 blankrows: true,
               })
-              .slice(name === "Prologue" ? 22 : 1),
+              .slice(name === "Prologue" ? 17 : 1),
           ])
         ),
-        Episodes: xlsx.utils
-          .sheet_to_json(file.Sheets["Episodes"], {
-            header: ["name", "en", "jp", "flag"],
-            blankrows: true,
-          })
-          .slice(1)
-          .reduce(
-            (acc, line) =>
-              line.flag === "x"
-                ? [...acc, [line]]
-                : [...acc.slice(0, -1), [...acc[acc.length - 1], line]],
-            []
-          ),
       };
       cb(translations);
       saveAppData("translation.json", { date: new Date(), ...translations });

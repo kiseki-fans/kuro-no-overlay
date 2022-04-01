@@ -11,20 +11,11 @@ class TraversableArray extends Array {
 }
 
 function mapTranslations(translations) {
-  const episodesSelect = document.getElementById("episode");
-  translations.Episodes.forEach((episode, index) => {
-    const option = document.createElement("option");
-    option.value = index;
-    option.innerText = episode[0].en;
-    episodesSelect.appendChild(option);
-  });
   return {
     ...Object.fromEntries(
       Object.entries(translations).map(([chapter, trans]) => [
         chapter,
-        chapter === "Episodes"
-          ? trans.map((episode) => new TraversableArray(...episode))
-          : new TraversableArray(...trans),
+        new TraversableArray(...trans),
       ])
     ),
     date: translations.date,

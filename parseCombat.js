@@ -16,8 +16,9 @@ function downloadAndParseCombat() {
     function xlsxToJson(buffer) {
       const file = xlsx.read(buffer, { type: "buffer" });
       saveCrafts(file);
-      saveQuartz(file);
-      saveMasterQuartz(file);
+      // saveQuartz(file);
+      saveArtsPlusQuartz(file);
+      // saveMasterQuartz(file);
       saveItems(file);
       saveBraveOrders(file);
       saveAccessories(file);
@@ -75,9 +76,56 @@ function saveQuartz(file) {
   fs.writeFileSync("resources/quartz.json", JSON.stringify(quartz, null, 2));
 }
 
+function saveArtsPlusQuartz(file) {
+  const quartz = xlsx.utils
+    .sheet_to_json(file.Sheets['Arts+Quartz'], {
+      header: ["japanese", "english", "stats", "notes"],
+    })
+    .slice(1)
+    .reduce((acc, line) => {
+      if (Object.keys(line).length === 1) {
+        // if (line.japanese.includes("quartz")) {
+        //   return acc;
+        // }
+        return { ...acc, [line.japanese]: [] };
+      }
+      const currentElement = Object.keys(acc)[Object.keys(acc).length - 1];
+      return {
+        ...acc,
+        [currentElement]: [...acc[currentElement], line],
+      };
+    }, {});
+  fs.writeFileSync("resources/artsPlusQuartz.json", JSON.stringify(quartz, null, 2));
+}
+
 function saveMasterQuartz(file) {
   const masterQuartz = xlsx.utils
     .sheet_to_json(file.Sheets["Master Quartz"], {
+      header: ["japanese", "english", "effects", "arts"],
+    })
+    .slice(1)
+    .reduce((acc, line) => {
+      if (Object.keys(line).length === 1) {
+        return { ...acc, [line.japanese]: [] };
+      }
+      const currentElement = Object.keys(acc)[Object.keys(acc).length - 1];
+      return {
+        ...acc,
+        [currentElement]: [...acc[currentElement], line],
+      };
+    }, {});
+  fs.writeFileSync(
+    "resources/masterQuartz.json",
+    JSON.stringify(masterQuartz, null, 2)
+  );
+}
+
+/**
+ * not implemented yet
+ */
+function saveHollowCores(file) {
+  const masterQuartz = xlsx.utils
+    .sheet_to_json(file.Sheets["Hollow Cores"], {
       header: ["japanese", "english", "effects", "arts"],
     })
     .slice(1)

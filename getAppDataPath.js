@@ -7,14 +7,14 @@ module.exports = function getAppDataPath() {
         process.env.HOME,
         "Library",
         "Application Support",
-        "hajimari-no-overlay"
+        "kuro-no-overlay"
       );
     }
     case "win32": {
-      return path.join(process.env.APPDATA, "hajimari-no-overlay");
+      return path.join(process.env.APPDATA, "kuro-no-overlay");
     }
     case "linux": {
-      return path.join(process.env.HOME, ".hajimari-no-overlay");
+      return path.join(process.env.HOME, ".kuro-no-overlay");
     }
     default: {
       console.log("Unsupported platform!");

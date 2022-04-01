@@ -46,12 +46,7 @@ function initializeTextPosition() {
     currentEpisode = savedEpisode;
   }
 
-  if (currentChapter === "Episodes") {
-    lines = chapters.Episodes[parseInt(currentEpisode)];
-    document.getElementById("episode").style.display = "inline";
-  } else {
-    lines = chapters[currentChapter];
-  }
+  lines = chapters[currentChapter];
 
   const savedLine = localStorage.getItem("currentLine");
   if (savedLine) {
@@ -61,21 +56,11 @@ function initializeTextPosition() {
 
   document.getElementById("chapter").addEventListener("change", (evt) => {
     currentChapter = evt.target.value;
-    if (currentChapter === "Episodes") {
-      document.getElementById("episode").style.display = "inline";
-      lines = chapters.Episodes[parseInt(currentEpisode)];
-    } else {
-      document.getElementById("episode").style.display = "none";
+    document.getElementById("episode").style.display = "none";
       lines = chapters[currentChapter];
-    }
     render(lines.next());
   });
 
-  document.getElementById("episode").addEventListener("change", (evt) => {
-    currentEpisode = evt.target.value;
-    lines = chapters.Episodes[parseInt(currentEpisode)];
-    render(lines.next());
-  });
 
   document.getElementById("line-number").addEventListener("change", (evt) => {
     lines.current = parseInt(evt.target.value) - 1;
@@ -91,12 +76,7 @@ function initalizeUpdateTranslations() {
     document.getElementById("updating").style.display = "none";
     document.getElementById("update").disabled = false;
 
-    if (currentChapter === "Episodes") {
-      lines = chapters.Episodes[parseInt(currentEpisode)];
-      document.getElementById("episode").style.display = "inline";
-    } else {
-      lines = chapters[currentChapter];
-    }
+    lines = chapters[currentChapter];
 
     const savedLine = localStorage.getItem("currentLine");
     lines.current = parseInt(savedLine);
