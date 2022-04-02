@@ -11,10 +11,12 @@
     <script>
       window.addEventListener("DOMContentLoaded", () => {
         renderOverlayRowsWithNoFilters({
-          resourceName: "hollowCores",
+          resourceName: "artsDrivers",
           rowTemplate: (row) => `
-            <td>${row.hollowCore}</td>
-            <td>${row.unnamedColumn2}</td>
+            <td class="japanese">${row.japanese}</td>
+            <td>${row.english}</td>
+            <td>${row.arts}</td>
+            <td>${row.plugInSlots}</td>
         `,
         });
       });
@@ -25,8 +27,10 @@
     <table>
       <thead>
         <tr>
-          <th scope="col">Hollow Core</th>
-          <th scope="col">S-Boost+Effects (Increases by H-Lv - Min-Max)</th>
+          <th scope="col">Japanese</th>
+          <th scope="col">English</th>
+          <th scope="col">ARTS</th>
+          <th scope="col">Plug-In Slots</th>
         </tr>
       </thead>
       <tbody></tbody>

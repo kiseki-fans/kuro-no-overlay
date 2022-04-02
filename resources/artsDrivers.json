@@ -1,0 +1,134 @@
+[
+  {
+    "japanese": "ストーム",
+    "english": "Storm",
+    "arts": "Spark Edge, Aerial Dust, Shadow Spear,\nChrono Drive, Plasma Sphere (Hollow-Lv 2)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "アクア",
+    "english": "Aqua",
+    "arts": "Hydro Cannon, Tear, Icicle Hammer, Saint Arrow,\nCataract Wave (Hollow-Lv 2)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "アンバー",
+    "english": "Amber",
+    "arts": "Stone Crack, Crest, Acid Cloud, Shadow Spear, \nAmber Crack (Hollow-Lv 2)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "フレア",
+    "english": "Flare",
+    "arts": "Fire Bolt, Forte, Abyss Flame, Argent Thorn, \nFlare Squall (Hollow-Lv 2)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "セレブレイト",
+    "english": "Celebrate",
+    "arts": "Thelas, Spark Edge, Saint Arrow, Breath, \nLost Moebius (Hollow-Lv 2)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "シェイド",
+    "english": "Shade",
+    "arts": "Chrono Drive, Acid Cloud, Shadow Spear, \nChrono Break, Obsidian Ray (Hollow-Lv 2)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "クレセント",
+    "english": "Crescent",
+    "arts": "Argent Thorn, Crescent Eye, SCuria, \nIdeal Force (Hollow-Lv 2)",
+    "plugInSlots": 3
+  },
+  {
+    "japanese": "ブラスト",
+    "english": "Blast",
+    "arts": "Fire Bolt, Aerial Dust, Abyss Flame, Veil, \nPlasma Sphere (Hollow-Lv 2)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "ウォール",
+    "english": "Wall",
+    "arts": "La Crest, Earth Guard, Acid Cloud, Breath, \nAmber Crack (H-Lv 2), Aegis Shield (H-Lv 3)",
+    "plugInSlots": 1
+  },
+  {
+    "japanese": "クラウド",
+    "english": "Cloud",
+    "arts": "Stone Crack, Icicle Hammer, Teara, Acid Cloud, \nCataract Wave (Hollow-Lv 2)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "メルト",
+    "english": "Melt",
+    "arts": "Hydro Cannon, Abyss Flame, Icicle Hammer, \nLa Forte, Flare Squall (Hollow-Lv 2)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "エクスプロード",
+    "english": "Explode",
+    "arts": "Abyss Flame, Amber Crack, La Forte, La Crest,\nFlare Squall (H-Lv 2), Thanatos Jail (H-Lv 3)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "シュトローム",
+    "english": "Strom",
+    "arts": "Cataract Wave, Plasma Sphere, Tearal, \nAura Breath, Crystal Eden, Tyrant Storm (H-Lv 3)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "カルテット",
+    "english": "Quartet",
+    "arts": "Amber Crack, Cataract Wave, Flare Squall, \nPlasma Sphere",
+    "plugInSlots": 4
+  },
+  {
+    "japanese": "アズール",
+    "english": "Azul",
+    "arts": "Athelas, Cataract Wave, Lost Moebius, Tearal (H-Lv 2),\nCrystal Eden (H-Lv 3)",
+    "plugInSlots": 3
+  },
+  {
+    "japanese": "パレード",
+    "english": "Parade",
+    "arts": "Argent Thorn, Lost Moebius, Obsidian Ray, La Forte \n(H-Lv 2), Chrono Drive (H-Lv 3), Ideal Force (H-Lv 4)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "ネビュラス",
+    "english": "Nebulus",
+    "arts": "Spark Edge, Chrono Drive, Aerial Dust, Obsidian Ray\n(H-Lv 2), Plasma Sphere (H-Lv 3), Plutos Nova (H-Lv 4)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "ディバイン",
+    "english": "Divine",
+    "arts": "Amber Crack, Lost Moebius, Aegis Shield, Athelas\n(H-Lv 2), El Dorado Ark (H-Lv 3)",
+    "plugInSlots": 3
+  },
+  {
+    "japanese": "クリムゾン",
+    "english": "Crimson",
+    "arts": "Shadow Spear, Flare Squall, Obsidian Ray, La Forte \n(H-Lv 2), Chrono Drive (H-Lv 3), Regulus Calibur (H-Lv 4)",
+    "plugInSlots": 2
+  },
+  {
+    "japanese": "アルビオン",
+    "english": "Albion",
+    "arts": "Ideal Force, Zodiac Sign, Jabberwock Arm",
+    "plugInSlots": 5
+  },
+  {
+    "japanese": "リヴァース",
+    "english": "Reverse",
+    "arts": "Veil, Tearal, Celestial",
+    "plugInSlots": 5
+  },
+  {
+    "japanese": "イノセンス",
+    "english": "Innocence",
+    "arts": "All Arts for this Driver are Plug-In slots.",
+    "plugInSlots": 8
+  }
+]

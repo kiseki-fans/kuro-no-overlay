@@ -36,7 +36,7 @@ function renderOverlay({ resourceName, rowTemplate }) {
   renderTable();
 }
 
-function renderHollowCoresOverlay({ resourceName, rowTemplate }) {
+function renderOverlayRowsWithNoFilters({ resourceName, rowTemplate }) {
   tbody = document.querySelector("tbody");
   filters = document.getElementById("filters");
   const resource = window.api.getResource(resourceName);

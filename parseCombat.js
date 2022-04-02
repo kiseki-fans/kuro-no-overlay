@@ -19,6 +19,7 @@ function downloadAndParseCombat() {
       saveArtsPlusQuartz(file);
       saveHollowCores(file);
       saveShardSkills(file);
+      saveArtsDrivers(file);
       // ======
       // saveItems(file);
       // saveBraveOrders(file);
@@ -121,6 +122,22 @@ function saveShardSkills(file) {
     }, {});
   fs.writeFileSync(
     "resources/shardSkills.json",
+    JSON.stringify(rows, null, 2)
+  );
+}
+
+
+function saveArtsDrivers(file) {
+  const rows = xlsx.utils
+    .sheet_to_json(file.Sheets["Arts Drivers"], {
+      header: ["japanese", "english", "arts", "plugInSlots"],
+    })
+    .slice(1)
+    .reduce((acc, line) => {
+      return [...acc, line]
+    }, []);
+  fs.writeFileSync(
+    "resources/artsDrivers.json",
     JSON.stringify(rows, null, 2)
   );
 }
