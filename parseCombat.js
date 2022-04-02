@@ -16,13 +16,13 @@ function downloadAndParseCombat() {
     function xlsxToJson(buffer) {
       const file = xlsx.read(buffer, { type: "buffer" });
       saveCrafts(file);
-      // saveQuartz(file);
       saveArtsPlusQuartz(file);
-      // saveMasterQuartz(file);
-      saveItems(file);
-      saveBraveOrders(file);
-      saveAccessories(file);
-      saveDoors(file);
+      saveHollowCores(file);
+      // ======
+      // saveItems(file);
+      // saveBraveOrders(file);
+      // saveAccessories(file);
+      // saveDoors(file);
     }
   );
 }
@@ -123,27 +123,17 @@ function saveMasterQuartz(file) {
   );
 }
 
-/**
- * not implemented yet
- */
 function saveHollowCores(file) {
   const masterQuartz = xlsx.utils
     .sheet_to_json(file.Sheets["Hollow Cores"], {
-      header: ["japanese", "english", "effects", "arts"],
+      header: ["hollowCore", "unnamedColumn2"],
     })
     .slice(1)
     .reduce((acc, line) => {
-      if (Object.keys(line).length === 1) {
-        return { ...acc, [line.japanese]: [] };
-      }
-      const currentElement = Object.keys(acc)[Object.keys(acc).length - 1];
-      return {
-        ...acc,
-        [currentElement]: [...acc[currentElement], line],
-      };
-    }, {});
+      return [...acc, line]
+    }, []);
   fs.writeFileSync(
-    "resources/masterQuartz.json",
+    "resources/hollowCores.json",
     JSON.stringify(masterQuartz, null, 2)
   );
 }

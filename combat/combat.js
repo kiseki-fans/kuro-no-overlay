@@ -36,6 +36,21 @@ function renderOverlay({ resourceName, rowTemplate }) {
   renderTable();
 }
 
+function renderHollowCoresOverlay({ resourceName, rowTemplate }) {
+  tbody = document.querySelector("tbody");
+  filters = document.getElementById("filters");
+  const resource = window.api.getResource(resourceName);
+  renderTable = function () {
+    tbody.innerHTML = "";
+    for (const row of resource) {
+      const tr = document.createElement("tr");
+      tr.innerHTML = rowTemplate(row);
+      tbody.appendChild(tr);
+    }
+  };
+  renderTable();
+}
+
 function renderFilters(resource) {
   for (const category in resource) {
     const div = document.createElement("div");

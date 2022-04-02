@@ -1,0 +1,74 @@
+[
+  {
+    "hollowCore": "Mare \n\n",
+    "unnamedColumn2": "-Multiple Works-\nSTR/ATS+10%-20%                        Physical Damage+15%-25%\nDEF/ADF+15%-25%                       Magic Damage+17%-25%\nSPD+10%-20%                               11%-15% HP Recovery after acting.\nEvasion&Critical+20%-30%             7%-9% EP Recovery after acting."
+  },
+  {
+    "hollowCore": "Mare (Law)\nRequires Law 3\n\n",
+    "unnamedColumn2": "-Lawkeeper-\n9%-10% EP/HP Recovery after acting.   Physical Damage+22%-25% \n6%-7% CP Recovery after acting.           Magic Damage+22%-25%\nDEF/ADF+56%-60%   SPD+16%-20%\nSTR/ATS+16%-20%   MOV+2/+3"
+  },
+  {
+    "hollowCore": "Mare (Gray)\nRequires Gray 3\n\n",
+    "unnamedColumn2": "-Trickster-\nEvasion+64%-70%.              Physical Damage+20%-25%\nSTR/ATS+14%-20%             Magic Damage+20%-25%\nDEF/ADF+20%-25%\nSPD+25%-30%   MOV+5-7"
+  },
+  {
+    "hollowCore": "Mare (Chaos)\nRequires Chaos 3\n\n",
+    "unnamedColumn2": "-Deadly Smile-\nCritical+44%-50%                  Physical Damage+20%-25%\nSTR/ATS+40%-45%              Magic Damage+20%-25%\nDEF/ADF+20%-25%\nSPD+14%-20%    MOV+2/+3"
+  },
+  {
+    "hollowCore": "Aim\n\n",
+    "unnamedColumn2": "-Remedy Breath-\nHP Recovery of Arts/Crafts+20%-30%\nATS+10%-20%\nADF+15%-25%\nArts Range+1"
+  },
+  {
+    "hollowCore": "Vine\n\n",
+    "unnamedColumn2": "-High Mobility-\nMOV+10\nSTR/ATS+10%-20%\nSPD+10%-20%\nPhysical Damage+15%-25%"
+  },
+  {
+    "hollowCore": "Sallos\n\n",
+    "unnamedColumn2": "-Kind Escort-\n7%-15% HP Recovery after acting.\nPhysical Damage+15%-25%\nMagic Damage+15%-25%\nAccuracy+60%-100%"
+  },
+  {
+    "hollowCore": "Camio\n\n",
+    "unnamedColumn2": "-Whirlwind-\n100% Chance to Counter after evading.     \nEvasion+42%-50%                                   Physical Damage+17%-25%     \nCounter Damage+32%-40%\nSTR+17%-25%"
+  },
+  {
+    "hollowCore": "Carabia\n\n",
+    "unnamedColumn2": "-Terrible Edge-\nPhysical Damage+30%-40%\nSTR+40%-50%\nDEF/ADF Down 25%"
+  },
+  {
+    "hollowCore": "Sitri\n\n",
+    "unnamedColumn2": "-Extend Boost-\n+1 Extra S-Boost Turn\nDEF/ADF+20%-25%\nPhysical Damage+20%-25%\nMagic Damage+20%-25%"
+  },
+  {
+    "hollowCore": "Otis\n",
+    "unnamedColumn2": "-Quick Spell-\nArts Casting Time reduced to 80%-60%\nMagic Damage+30%-40%"
+  },
+  {
+    "hollowCore": "Raym\n\n",
+    "unnamedColumn2": "-Saving Arts-\nEP Consumption 70%-60%\n7%-9% EP Recovery after acting.\nMagic Damage+20%-25%"
+  },
+  {
+    "hollowCore": "Pocel\n\n",
+    "unnamedColumn2": "-Sevens Glow-                                      Physical Damage+15%-25%\n7%-15% HP Recovery after acting.      Magic Damage+15%-25%\n5%-9% EP Recovery after acting.        Accuracy+60%-100%\nSTR/ATS+10%-20%                            Critical+25%-35%\nSPD+10%-20%                                    Evasion+40%-50%"
+  },
+  {
+    "hollowCore": "Gaap\n",
+    "unnamedColumn2": "-Great Guns-\nS-Craft Damage+50%-70%\nS-Craft Delay reduced to 95%-75%"
+  },
+  {
+    "hollowCore": "Oze\n\n",
+    "unnamedColumn2": "-Magic Steal-\n10% Chance to absorb Magic Attacks\nPhysical Damage+22%-25%\nMagic Damage+22%-25%"
+  },
+  {
+    "hollowCore": "Loray\n\n",
+    "unnamedColumn2": "-Arcana Force-\nEP Consumption+150%\nArts Power+20%-30%           Magic Damage+15%-25%\nATS+10%-20%\nSPD+10%-20%"
+  },
+  {
+    "hollowCore": "Nagi\n\n",
+    "unnamedColumn2": "-Gust Slash-\nCritical+46%-50%\nPhysical Damage+22%-25%\nSPD+21%-25%"
+  },
+  {
+    "hollowCore": "Bathym\n\n",
+    "unnamedColumn2": "-Dread Soldier-                                        \nIncreases the time an enemy is stunned.   Physical Damage+15%-25%\nDamage on Stunned enemies+30%-40%    \nSTR+10%-25%\nDEF+15%-25%"
+  }
+]
