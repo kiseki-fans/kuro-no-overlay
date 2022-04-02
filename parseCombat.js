@@ -20,11 +20,8 @@ function downloadAndParseCombat() {
       saveHollowCores(file);
       saveShardSkills(file);
       saveArtsDrivers(file);
-      // ======
-      // saveItems(file);
-      // saveBraveOrders(file);
-      // saveAccessories(file);
-      // saveDoors(file);
+      saveItems(file);
+      saveAccessories(file);
     }
   );
 }
@@ -56,28 +53,6 @@ function saveCrafts(file) {
   fs.writeFileSync("resources/crafts.json", JSON.stringify(crafts, null, 2));
 }
 
-function saveQuartz(file) {
-  const quartz = xlsx.utils
-    .sheet_to_json(file.Sheets.Quartz, {
-      header: ["japanese", "english", "stats", "notes", "arts"],
-    })
-    .slice(1)
-    .reduce((acc, line) => {
-      if (Object.keys(line).length === 1) {
-        if (line.japanese.includes("quartz")) {
-          return acc;
-        }
-        return { ...acc, [line.japanese]: [] };
-      }
-      const currentElement = Object.keys(acc)[Object.keys(acc).length - 1];
-      return {
-        ...acc,
-        [currentElement]: [...acc[currentElement], line],
-      };
-    }, {});
-  fs.writeFileSync("resources/quartz.json", JSON.stringify(quartz, null, 2));
-}
-
 function saveArtsPlusQuartz(file) {
   const quartz = xlsx.utils
     .sheet_to_json(file.Sheets["Arts+Quartz"], {
@@ -103,6 +78,21 @@ function saveArtsPlusQuartz(file) {
   );
 }
 
+function saveHollowCores(file) {
+  const masterQuartz = xlsx.utils
+    .sheet_to_json(file.Sheets["Hollow Cores"], {
+      header: ["hollowCore", "unnamedColumn2"],
+    })
+    .slice(1)
+    .reduce((acc, line) => {
+      return [...acc, line];
+    }, []);
+  fs.writeFileSync(
+    "resources/hollowCores.json",
+    JSON.stringify(masterQuartz, null, 2)
+  );
+}
+
 function saveShardSkills(file) {
   const rows = xlsx.utils
     .sheet_to_json(file.Sheets["Shard Skills"], {
@@ -111,21 +101,18 @@ function saveShardSkills(file) {
     .slice(1)
     .reduce((acc, line) => {
       if (Object.keys(line).length === 1) {
-        const trimmedLineJapanese = line.japanese.trim()
+        const trimmedLineJapanese = line.japanese.trim();
         return { ...acc, [trimmedLineJapanese]: [] };
       }
-      const currentElement = (Object.keys(acc)[Object.keys(acc).length - 1]).trim()
+      const currentElement =
+        Object.keys(acc)[Object.keys(acc).length - 1].trim();
       return {
         ...acc,
         [currentElement]: [...acc[currentElement], line],
       };
     }, {});
-  fs.writeFileSync(
-    "resources/shardSkills.json",
-    JSON.stringify(rows, null, 2)
-  );
+  fs.writeFileSync("resources/shardSkills.json", JSON.stringify(rows, null, 2));
 }
-
 
 function saveArtsDrivers(file) {
   const rows = xlsx.utils
@@ -134,50 +121,9 @@ function saveArtsDrivers(file) {
     })
     .slice(1)
     .reduce((acc, line) => {
-      return [...acc, line]
+      return [...acc, line];
     }, []);
-  fs.writeFileSync(
-    "resources/artsDrivers.json",
-    JSON.stringify(rows, null, 2)
-  );
-}
-
-
-function saveMasterQuartz(file) {
-  const masterQuartz = xlsx.utils
-    .sheet_to_json(file.Sheets["Master Quartz"], {
-      header: ["japanese", "english", "effects", "arts"],
-    })
-    .slice(1)
-    .reduce((acc, line) => {
-      if (Object.keys(line).length === 1) {
-        return { ...acc, [line.japanese]: [] };
-      }
-      const currentElement = Object.keys(acc)[Object.keys(acc).length - 1];
-      return {
-        ...acc,
-        [currentElement]: [...acc[currentElement], line],
-      };
-    }, {});
-  fs.writeFileSync(
-    "resources/masterQuartz.json",
-    JSON.stringify(masterQuartz, null, 2)
-  );
-}
-
-function saveHollowCores(file) {
-  const masterQuartz = xlsx.utils
-    .sheet_to_json(file.Sheets["Hollow Cores"], {
-      header: ["hollowCore", "unnamedColumn2"],
-    })
-    .slice(1)
-    .reduce((acc, line) => {
-      return [...acc, line]
-    }, []);
-  fs.writeFileSync(
-    "resources/hollowCores.json",
-    JSON.stringify(masterQuartz, null, 2)
-  );
+  fs.writeFileSync("resources/artsDrivers.json", JSON.stringify(rows, null, 2));
 }
 
 function saveItems(file) {
@@ -197,31 +143,6 @@ function saveItems(file) {
       };
     }, {});
   fs.writeFileSync("resources/items.json", JSON.stringify(items, null, 2));
-}
-
-function saveBraveOrders(file) {
-  const braveOrders = xlsx.utils
-    .sheet_to_json(file.Sheets["Brave Orders"], {
-      header: ["name", "bpCost", "turns", "primaryEffect", "secondaryEffect"],
-    })
-    .slice(1)
-    .reduce((acc, line) => {
-      if (Object.keys(line).length === 1) {
-        if (line.name.includes("REVERIE")) {
-          return acc;
-        }
-        return { ...acc, [line.name]: [] };
-      }
-      const currentCharacter = Object.keys(acc)[Object.keys(acc).length - 1];
-      return {
-        ...acc,
-        [currentCharacter]: [...acc[currentCharacter], line],
-      };
-    }, {});
-  fs.writeFileSync(
-    "resources/braveOrders.json",
-    JSON.stringify(braveOrders, null, 2)
-  );
 }
 
 function saveAccessories(file) {
@@ -244,15 +165,6 @@ function saveAccessories(file) {
     "resources/accessories.json",
     JSON.stringify(accessories, null, 2)
   );
-}
-
-function saveDoors(file) {
-  const doors = xlsx.utils
-    .sheet_to_json(file.Sheets["Door of Trials"], {
-      header: ["door", "characters", "lvl"],
-    })
-    .slice(2);
-  fs.writeFileSync("resources/doors.json", JSON.stringify(doors, null, 2));
 }
 
 module.exports = downloadAndParseCombat;

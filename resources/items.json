@@ -3,360 +3,434 @@
     {
       "japanese": "ティアの薬",
       "english": "Tear Balm",
-      "effects": "Single: HP 5000 Recovery"
+      "effects": "Single: Recovers 500 HP"
     },
     {
       "japanese": "ティアラの薬",
       "english": "Teara Balm",
-      "effects": "Single: HP 10000 Recovery"
+      "effects": "Single: Recovers 1500 HP"
     },
     {
       "japanese": "ティアラルの薬",
       "english": "Tearal Balm",
-      "effects": "Single: HP 15000 Recovery"
+      "effects": "Single: Recovers 4500 HP"
     },
     {
       "japanese": "ティア・オルの薬",
       "english": "Tear-All Balm",
-      "effects": "Single: Full HP Recovery"
+      "effects": "Single: Recovers all HP"
     },
     {
       "japanese": "EPチャージI",
       "english": "EP Charge",
-      "effects": "Single: EP 250 Recovery"
+      "effects": "Single: Recovers 150 EP"
     },
     {
       "japanese": "EPチャージII",
       "english": "EP Charge II",
-      "effects": "Single: EP 500 Recovery"
+      "effects": "Single: Recovers 300 EP"
     },
     {
       "japanese": "EPチャージIII",
       "english": "EP Charge III",
-      "effects": "Single: EP 750 Recovery"
+      "effects": "Single: Recovers 600 EP"
     },
     {
       "japanese": "EPチャージIV",
       "english": "EP Charge IV",
-      "effects": "Single: EP full Recovery"
+      "effects": "Single: Recovers all EP"
     },
     {
       "japanese": "セラスの薬",
       "english": "Reviving Balm",
-      "effects": "Single: Revive K.O; HP 6000 Recovery"
+      "effects": "Single: Revive K.O; Recovers 800 HP"
     },
     {
       "japanese": "アセラスの薬",
       "english": "Celestial Balm",
-      "effects": "Single: Revive K.O; HP 12000 Recovery"
+      "effects": "Single: Revive K.O; Recovers 2400 HP"
     },
     {
       "japanese": "アセラスの薬・改",
       "english": "Celestial Balm EX",
-      "effects": "Single: Revive K.O; HP 18000 Recovery"
+      "effects": "Single: Revive K.O; Recovers 7200 HP"
     },
     {
       "japanese": "ゼラムパウダー",
       "english": "Zeram Powder",
-      "effects": "Single: Revive K.O; HP Full Recovery; CP + 100"
+      "effects": "Single: Revive K.O; Recovers all HP; CP + 100"
     },
     {
       "japanese": "ゼラムカプセル",
       "english": "Zeram Capsule",
-      "effects": "Single: Revive K.O; HP Full Recovery; CP + 200"
+      "effects": "Single: Revive K.O; Recovers all HP; CP + 200"
     },
     {
-      "japanese": "ブレイブシード",
-      "english": "Brave Seed",
-      "effects": "All: Increase BP +3 "
-    },
-    {
-      "japanese": "ブレイブソウル",
-      "english": "Brave Soul",
-      "effects": "All: Max BP"
-    },
-    {
-      "japanese": "精霊香",
-      "english": "Spirit Incense",
-      "effects": "All: Revive K.O; HP 50% Recovery; EP 50% Recovery"
-    },
-    {
-      "japanese": "龍神香",
-      "english": "Dragon Incense",
-      "effects": "All: Revive K.O; HP Full Recovery; EP Full Recovery"
-    },
-    {
-      "japanese": "解毒薬",
-      "english": "Antidote",
-      "effects": "Single: Cure Poison"
+      "japanese": "防腐リキッド",
+      "english": "Embalment Liquid",
+      "effects": "Single: Cures Erosion"
     },
     {
       "japanese": "弛緩ジェル",
       "english": "Relaxing Gel",
-      "effects": "Single: Cure Seal"
+      "effects": "Single: Cures Seal"
     },
     {
       "japanese": "絶縁テープ",
       "english": "Insulating Tape",
-      "effects": "Single: Cure Mute"
-    },
-    {
-      "japanese": "目薬",
-      "english": "Eye Drops",
-      "effects": "Single: Cure Blind"
-    },
-    {
-      "japanese": "ミントドロップ",
-      "english": "Mint Drop",
-      "effects": "Single: Cure Sleep/Nightmare"
+      "effects": "Single: Cures Mute"
     },
     {
       "japanese": "冷却スプレー",
       "english": "Cooling Spray",
-      "effects": "Single: Cure Burn"
+      "effects": "Single: Cures Burn"
     },
     {
       "japanese": "解凍カイロ",
       "english": "Warmer",
-      "effects": "Single: Cure Freeze"
+      "effects": "Single: Cures Freeze"
     },
     {
-      "japanese": "軟化リキッド",
-      "english": "Softening Ointment",
-      "effects": "Single: Cure Petrify"
+      "japanese": "明眼薬",
+      "english": "Eye Drops",
+      "effects": "Single: Cures Blind"
     },
     {
-      "japanese": "気付け薬",
-      "english": "Stimulant",
-      "effects": "Single: Cure Faint"
-    },
-    {
-      "japanese": "鎮静薬",
-      "english": "Sedative",
-      "effects": "Single: Cure Confusion"
+      "japanese": "百花香",
+      "english": "Hundred Flower Incense",
+      "effects": "Single: Cures Fear"
     },
     {
       "japanese": "S-タブレット",
       "english": "S-Tablet",
-      "effects": "Single: Cure Stats Down"
+      "effects": "Single: Cures Stats Down"
     },
     {
       "japanese": "キュリアの薬",
       "english": "Curia Balm",
-      "effects": "Single: Cure All Abnormal Status Effects"
+      "effects": "Single: Cures All Status AIlments"
     },
     {
-      "japanese": "レキュリアの薬",
-      "english": "Recuria Balm",
-      "effects": "All: Cure All Abnormal Status Effects"
+      "japanese": "浄身丹",
+      "english": "Pure Body Pill",
+      "effects": "Single: Recovers 2000 HP; Cures All Status Ailments"
     },
     {
-      "japanese": "缶ジュース",
-      "english": "Canned Juice",
-      "effects": "Single: HP 3000 recovery"
+      "japanese": "パワータブレット",
+      "english": "Power Tablet",
+      "effects": "Single: Recovers 1200 HP; Attack Up"
     },
     {
-      "japanese": "エナジードリンク",
-      "english": "Energy Drink",
-      "effects": "Single: HP 3000 recovery, CP+15"
+      "japanese": "シールドタブレット",
+      "english": "Shield Tablet",
+      "effects": "Single: Recovers 1200 HP; Defense Up; Magic Defense Up"
     },
     {
-      "japanese": "ベルコーラ",
-      "english": "Belcola",
-      "effects": "Single: HP 3000 recovery, EP 200 recovery"
+      "japanese": "マインドタブレット",
+      "english": "Mind Tablet",
+      "effects": "Single: Recovers 1200 HP; Magic Attack Up"
+    }
+  ],
+  "                                                                                                                      MEAL ITEMS - PARTY-WIDE": [
+    {
+      "japanese": "ファミリーガレット",
+      "english": "Family Galette",
+      "effects": "All: Recovers 1200 HP, 120 EP, 12 CP"
     },
     {
-      "japanese": "にがトマトウォーター",
-      "english": "Bitter Tomato Water",
-      "effects": "Single: CP+20"
+      "japanese": "七菜火鍋",
+      "english": "Seven Dish Hot Pot",
+      "effects": "All: Recovers 1600 HP, 80 EP, 16 CP"
     },
     {
-      "japanese": "にがトマトシェイク",
-      "english": "Bitter Tomato Shake",
-      "effects": "Single: CP+30"
+      "japanese": "桂花炒飯",
+      "english": "Osmanthus Fried Rice",
+      "effects": "All: Recovers 2400 HP, 120 EP, 12 CP"
     },
     {
-      "japanese": "ミッドナイトフィズ",
-      "english": "Midnight Fizz",
-      "effects": "Single: Revive K.O; HP 4000 Recovery"
+      "japanese": "蓬來サムゲタン",
+      "english": "Ginseng Chicken Soup",
+      "effects": "All: Recovers 1800 HP, 180 EP, 18 CP"
     },
     {
-      "japanese": "オレンジジュース",
-      "english": "Orange Juice",
-      "effects": "Single: HP 6000 Recovery; Cure Poison"
+      "japanese": "マセラティカレー",
+      "english": "Maserati Curry",
+      "effects": "All: Recovers 2400 HP, 120 EP, 24 CP"
     },
     {
-      "japanese": "ブレンドコーヒー",
-      "english": "Blended Coffee",
-      "effects": "Single: HP 6000 Recovery; Cure Sleep/Nightmare"
+      "japanese": "ジューシーキョフテ",
+      "english": "Juicy Kofta",
+      "effects": "All: Recovers 1200 HP, 240 EP, 12 CP"
     },
     {
-      "japanese": "インペリアルティー",
-      "english": "Imperial Tea",
-      "effects": "Single: HP 6000 Recovery; Cure Seal"
+      "japanese": "石焼きシチュー",
+      "english": "Stone-Grilled Stew",
+      "effects": "All: Recovers 1800 HP, 180 EP, 18 CP"
     },
     {
-      "japanese": "ストロベリークレープ",
-      "english": "Strawberry Crepe",
-      "effects": "Single: HP 6000 Recovery; Cure Mute"
+      "japanese": "スタミナドリア",
+      "english": "Stamina Doria",
+      "effects": "All: Recovers 3200 HP, 160 EP, 16 CP"
     },
     {
-      "japanese": "タルタルフィッシュフライ",
-      "english": "Fish Fry Tartar",
-      "effects": "Single: HP 7500 Recovery"
+      "japanese": "極上火鍋《華》",
+      "english": "High Quality Hot Pot",
+      "effects": "All: Recovers 4800 HP, 120 EP, 12 CP"
     },
     {
-      "japanese": "ヴァンセットバーグ",
-      "english": "Vancetberg",
-      "effects": "Single: 7500 Recovery; Cure Poison"
+      "japanese": "熱々ミートグラタン",
+      "english": "Hot Meat Gratin",
+      "effects": "All: Recovers 1800 HP, 180 EP, 18 CP"
     },
     {
-      "japanese": "龍老炒飯",
-      "english": "Dragon Fried Rice",
-      "effects": "Single: 7500 Recovery; Cure Seal"
+      "japanese": "キングダムタルト",
+      "english": "Kingdom Tart",
+      "effects": "All: Recovers 1200 HP, 120 EP, 36 CP"
     },
     {
-      "japanese": "オーゼル流塩麺",
-      "english": "Ozel-Style Salt Noodles",
-      "effects": "Single: 7500 Recovery; Cure Mute"
+      "japanese": "食い倒れグリル",
+      "english": "Expensive Grill",
+      "effects": "All: Recovers 8000 HP, 80 EP, 8 CP"
     },
     {
-      "japanese": "バニラゆべし",
-      "english": "Vanilla Dumpling",
-      "effects": "Single: 7500 Recovery; Cure Blind"
+      "japanese": "直火焼きハンバーグ",
+      "english": "Grilled Hamburger",
+      "effects": "All: Recovers 6400 HP, 280 EP, 28 CP"
     },
     {
-      "japanese": "ホットチリぺっきー",
-      "english": "Hot chili Pecky",
-      "effects": "Single: HP 7500 Recovery; Cure Sleep/Nightmare"
+      "japanese": "濃厚シュリンプビスク",
+      "english": "Rich Shrimp Bisque",
+      "effects": "All: Recovers 2400 HP, 240 EP, 24 CP"
     },
     {
-      "japanese": "メロンぺっきー",
-      "english": "Melon Pecky",
-      "effects": "Single: HP 7500 Recovery; Cure Burn"
+      "japanese": "黒酢酸辣湯",
+      "english": "Hot+Sour Black Vinegar Soup",
+      "effects": "All: Recovers 1600 HP, 320 EP, 16 CP"
     },
     {
-      "japanese": "サモーナぺっきー",
-      "english": "Samona Pecky",
-      "effects": "Single: HP 7500 Recovery; Cure Freeze"
+      "japanese": "ペンネ・マンマミーア",
+      "english": "Mama Mia Penne",
+      "effects": "All: Recovers 6000 HP, 600 EP, 60 CP"
+    }
+  ],
+  "                                                                                                                    ORBMENT STATION RECIPES": [
+    {
+      "japanese": "ビーンズシュリンプタコス",
+      "english": "Bean Shrimp Tacos",
+      "effects": "Single: Recovers 460 HP; Magic Attack Up"
     },
     {
-      "japanese": "チーズぺっきー",
-      "english": "Cheese Pecky",
-      "effects": "Single: HP 7500 Recovery; Cure Petrify"
+      "japanese": "レモンクリームパスタ",
+      "english": "Lemon Cream Pasta",
+      "effects": "Single: Recovers 760 HP; Magic Defense Up"
     },
     {
-      "japanese": "ハーブぺっきー",
-      "english": "Herb Pecky",
-      "effects": "Single: HP 7500 Recovery; Cure Faint"
+      "japanese": "マクミランサンド",
+      "english": "Macmillan Sand",
+      "effects": "Single: Recovers 680 HP; Physical Attack Up"
     },
     {
-      "japanese": "オレンジぺっきー",
-      "english": "Orange Pecky",
-      "effects": "Single: HP 7500 Recovery; Cure Confusion"
+      "japanese": "金華刀削麺",
+      "english": "Sword-Cut Noodles",
+      "effects": "Single: Recovers 960 HP; Magic Attack Up"
     },
     {
-      "japanese": "フォレスタスープ",
-      "english": "Forester Soup",
-      "effects": "Single: HP 7500 Recovery; Cure All Abnormal Status Effects"
+      "japanese": "火竜トムヤンクン",
+      "english": "Tom Yung Kung Soup",
+      "effects": "Single: Recovers 1080 HP; Physical Attack Up"
     },
     {
-      "japanese": "太陽と月と星の輝きミックス",
-      "english": "Sun, Moon and Star Mix",
-      "effects": "Single: HP 1000 Recovery; 3 turns STR / ATS / SPD ↑ (Small); Cures Stat Down"
+      "japanese": "黒粥《珍秘》",
+      "english": "Secret Black Rice Porridge",
+      "effects": "Single: Recovers 1080 HP; Magic Defense Up"
     },
     {
-      "japanese": "アイス・オブ・ソレイユ",
-      "english": "Ice of Soleil",
-      "effects": "Single: HP 15000 Recovery; 3 turns ATS / ADF / SPD ↑ (Large); Cures Stat Down"
+      "japanese": "陳道ザーサイ",
+      "english": "Chen Dao Zha Cai",
+      "effects": "Single: Recovers 960 HP; Physical Defense Up"
     },
     {
-      "japanese": "アニバーサリーロール",
-      "english": "Anniversary roll",
-      "effects": "Single: HP 1000 Recovery; 3 turns DEF / ADF / SPD ↑ (Small); Cures Stat Down "
+      "japanese": "ヴィットリーノパスタ",
+      "english": "Vittorino Pasta",
+      "effects": "Single: Recovers 1160 HP; Physical Defense Up"
     },
     {
-      "japanese": "トロピカル・ラバーズ",
-      "english": "Tropical Lovers",
-      "effects": "Single: HP 10000 Recovery; 7 turns DEF / ADF / SPD ↑ (Small); Cures Stat Down"
+      "japanese": "熱々肉まん",
+      "english": "Steamed Meat Bun",
+      "effects": "Single: Recovers 920 HP; Physical Attack Up"
     },
     {
-      "japanese": "タピオカミルクティー",
-      "english": "Tapioca Milk Tea",
-      "effects": "Single: HP 10000 Recovery; 7 turns STR ↑ (Small); Cures Stat Down"
+      "japanese": "山菜月見蕎麦",
+      "english": "Sansai Soba",
+      "effects": "Single: Recovers 1200 HP; Magic Attack Up"
     },
     {
-      "japanese": "フラワリー・フィズ",
-      "english": "Flowery Fizz",
-      "effects": "Single: HP 10000 Recovery; 7 turns ATS ↑ (Small); Cures Stat Down"
+      "japanese": "冷やしとろろ蕎麦",
+      "english": "Chilled Yam Soba",
+      "effects": "Single: Recovers 1140 HP; Magic Defense Up"
     },
     {
-      "japanese": "パワーポーション",
-      "english": "Power potion",
-      "effects": "Single: HP 4000 Recovery; CP+15; 4 turns STR ↑ (Small); Cures Stat Down"
+      "japanese": "ねぎま串",
+      "english": "Chicken Scallion Skewer",
+      "effects": "Single: Recovers 840 HP; Physical Attack Up"
     },
     {
-      "japanese": "シールドポーション",
-      "english": "Shield potion",
-      "effects": "Single: HP 4000 Recovery; EP 150 Recovery; CP+15; 4 turns DEF ↑ (Small); Cures Stat Down"
+      "japanese": "銀杏串",
+      "english": "Gingko Skewers",
+      "effects": "Single: Recovers 720 HP; Magic Attack Up"
     },
     {
-      "japanese": "マインドポーション",
-      "english": "Mind potion",
-      "effects": "Single: HP 4000 Recovery; EP150 Recovery; 4 turns ATS / ADF ↑ (Small); Cures Stat Down"
+      "japanese": "キャメルステーキ",
+      "english": "Camel Steak",
+      "effects": "Single: Recovers 1800 HP; Magic Defense Up"
     },
     {
-      "japanese": "パワーポーションII",
-      "english": "Power Potion II",
-      "effects": "Single: HP 12000 Recovery; CP+30; 4 turns STR ↑ (Middle); Cures Stat Down"
+      "japanese": "ワイルドケバブ",
+      "english": "Wild Kebabs",
+      "effects": "Single: Recovers 1460 HP; Physical Defense Up"
     },
     {
-      "japanese": "シールドポーションII",
-      "english": "Shield Potion II",
-      "effects": "Single: HP 12000 Recovery; EP 450 Recovery; CP+30; 4 turns DEF ↑ (Middle); Cures Stat Down"
+      "japanese": "レッドホットフランク",
+      "english": "Red Hot Frank",
+      "effects": "Single: Recovers 1340 HP; Physical Attack Up"
     },
     {
-      "japanese": "マインドポーションII",
-      "english": "Mind Potion II",
-      "effects": "Single: HP 12000 Recovery; EP 450; Recovery 4 turns ATS / ADF ↑ (Middle); Cures Stat Down"
+      "japanese": "ジャンボフランク",
+      "english": "Jumbo Frank",
+      "effects": "Single: Recovers 1540 HP; Physical Defense Up"
     },
     {
-      "japanese": "パワーポーションΩ",
-      "english": "Power potion Ω",
-      "effects": "Single: HP 24000 Recovery; CP+30; 4 turns STR ↑ (Large); Cures Stat Down"
+      "japanese": "煮込みハンバーグ",
+      "english": "Stewed Hamburger",
+      "effects": "Single: Recovers 1600 HP; Physical Attack Up"
     },
     {
-      "japanese": "シールドポーションΩ",
-      "english": "Shield potion Ω",
-      "effects": "Single: HP 24000 Recovery; EP900 Recovery; CP +30 4 turns DEF ↑ (Large); Cures Stat Down"
+      "japanese": "チョコライスタコス",
+      "english": "Choco Rice Tacos",
+      "effects": "Single: Recovers 1280 HP; Magic Attack Up"
     },
     {
-      "japanese": "マインドポーションΩ",
-      "english": "Mind potion Ω",
-      "effects": "Single: HP 24000 Recovery; EP900 Recovery; 4 turns ATS / ADF ↑ (Large); Cures Stat Down"
+      "japanese": "春水せんべい",
+      "english": "Spring Water Rice Crackers",
+      "effects": "Single: Recovers 880 HP; Magic Attack Up"
     },
     {
-      "japanese": "煙り玉",
-      "english": "Smoke Ball",
-      "effects": "All: 100% retreat"
+      "japanese": "五目ちまき",
+      "english": "Gomoku Chimaki",
+      "effects": "Single: Recovers 1120 HP; Physical Defense Up"
     },
     {
-      "japanese": "バトルスコープ",
-      "english": "Battle Scope",
-      "effects": "Information analysis"
+      "japanese": "温泉卵",
+      "english": "Hot Spring Eggs",
+      "effects": "Single: Recovers 800 HP; Magic Defense Up"
+    },
+    {
+      "japanese": "ベジタブルチップス",
+      "english": "Vegetable Chips",
+      "effects": "Single: Recovers 1380 HP; Magic Defense Up"
+    },
+    {
+      "japanese": "トラードの串焼き",
+      "english": "Traditional Spit-Roast",
+      "effects": "Single: Recovers 1540 HP; Magic Defense Up"
+    },
+    {
+      "japanese": "エレガントピザ",
+      "english": "Elegant Pizza",
+      "effects": "Single: Recovers 1620 HP; Magic Attack Up"
+    },
+    {
+      "japanese": "ギルティタコス",
+      "english": "Guilty Tacos",
+      "effects": "Single: Recovers 1480 HP; Magic Attack Up"
+    },
+    {
+      "japanese": "バケットピザ",
+      "english": "Bucket Pizza",
+      "effects": "Single: Recovers 440 HP; Physical Attack Up"
+    },
+    {
+      "japanese": "ペッパーポテトサラダ",
+      "english": "Pepper Potato Salad",
+      "effects": "Single: Recovers 520 HP; Physical Defense Up"
+    },
+    {
+      "japanese": "チーズホットドッグ",
+      "english": "Cheese Hot Dog",
+      "effects": "Single: Recovers 540 HP; Physical Attack Up"
+    },
+    {
+      "japanese": "ターキーレッグ",
+      "english": "Turkey Leg",
+      "effects": "Single: Recovers 580 HP; Magic Defense Up"
+    },
+    {
+      "japanese": "スパイシーサラミ",
+      "english": "Sweet Salami",
+      "effects": "Single: Recovers 380 HP; Phyiscal Attack Up"
+    },
+    {
+      "japanese": "フレッシュサラダ",
+      "english": "Fresh Salad",
+      "effects": "Single: Recovers 580 HP; Magic Attack Up"
+    },
+    {
+      "japanese": "ビーフステーキ",
+      "english": "Beef Steak",
+      "effects": "Single: Recovers 1080 HP; Physical Defense Up"
+    },
+    {
+      "japanese": "ワイルドバーガー",
+      "english": "Wild Burger",
+      "effects": "Single: Recovers 1240 HP; Physical Defense Up"
+    },
+    {
+      "japanese": "スタミナステーキ",
+      "english": "Stamina Steak",
+      "effects": "Single: Recovers 1800 HP; Physical Defense Up"
+    },
+    {
+      "japanese": "スイートオムレツ",
+      "english": "Sweet Omelette",
+      "effects": "Single: Recovers 900 HP; Physical Defense Up"
+    },
+    {
+      "japanese": "ひとくちサモサ",
+      "english": "Draft Samosa",
+      "effects": "Single: Recovers 2160 HP; Magic Attack Up"
+    },
+    {
+      "japanese": "レッドガーリックフムス",
+      "english": "Red Garlic Hummus",
+      "effects": "Single: Recovers 2860 HP; Physical Attack Up"
+    },
+    {
+      "japanese": "ピリ辛カレーまん",
+      "english": "Spicy Curry Bun",
+      "effects": "Single: Recovers 3260 HP; Physical Defense Up"
+    },
+    {
+      "japanese": "ホワイトクロックムッシュ",
+      "english": "White Croque-Monsieur",
+      "effects": "Single: Recovers 3540 HP; Magic Attack Up"
+    },
+    {
+      "japanese": "オーガニックポトフ",
+      "english": "Organic Pot-au-feu",
+      "effects": "Single: Recovers 3800 HP; Magic Defense Up"
+    },
+    {
+      "japanese": "極太ヴァイスヴルスト",
+      "english": "Thick Weisswurst",
+      "effects": "Single: Recovers 10000 HP; Physical Defense Up"
+    },
+    {
+      "japanese": "崑崙流小籠包",
+      "english": "Kunlun Steamed Bun",
+      "effects": "Single: Recovers 7840 HP; Physical Attack Up"
     }
   ],
   "ENHANCEMENT": [
-    {
-      "japanese": "碧い雫",
-      "english": "Azure Drop",
-      "effects": "Single: EXP +10000"
-    },
-    {
-      "japanese": "碧い神水",
-      "english": "Azure Divine Water",
-      "effects": "Single: EXP +25000"
-    },
     {
       "japanese": "命の雫",
       "english": "Life Drop",
@@ -365,47 +439,22 @@
     {
       "japanese": "力の雫",
       "english": "Strength Drop",
-      "effects": "Single: STR + 1"
+      "effects": "Single: Maximum STR + 1"
     },
     {
       "japanese": "守の雫",
       "english": "Defense Drop",
-      "effects": "Single: DEF + 1"
+      "effects": "Single: Maximum DEF + 1"
     },
     {
       "japanese": "魔の雫",
       "english": "Mind Drop",
-      "effects": "Single: ATS + 1"
+      "effects": "Single: Maximum ATS + 1"
     },
     {
       "japanese": "霊の雫",
       "english": "Spirit Drop",
-      "effects": "Single: ADF + 1"
-    },
-    {
-      "japanese": "命の神水",
-      "english": "Divine Water of Life",
-      "effects": "Single: Maximum HP +100"
-    },
-    {
-      "japanese": "力の神水",
-      "english": "Divine Water of Strength",
-      "effects": "Single: STR + 5"
-    },
-    {
-      "japanese": "守の神水",
-      "english": "Divine Water of Defense",
-      "effects": "Single: DEF + 5"
-    },
-    {
-      "japanese": "魔の神水",
-      "english": "Divine Water of Mind",
-      "effects": "Single: ATS + 5"
-    },
-    {
-      "japanese": "霊の神水",
-      "english": "Divine Water of Spirit",
-      "effects": "Single: ADF + 5"
+      "effects": "Single: Maximum ADF + 1"
     }
   ]
 }
