@@ -18,6 +18,7 @@ function downloadAndParseCombat() {
       saveCrafts(file);
       saveArtsPlusQuartz(file);
       saveHollowCores(file);
+      saveShardSkills(file);
       // ======
       // saveItems(file);
       // saveBraveOrders(file);
@@ -100,6 +101,30 @@ function saveArtsPlusQuartz(file) {
     JSON.stringify(quartz, null, 2)
   );
 }
+
+function saveShardSkills(file) {
+  const rows = xlsx.utils
+    .sheet_to_json(file.Sheets["Shard Skills"], {
+      header: ["japanese", "english", "requiredElements", "effects"],
+    })
+    .slice(1)
+    .reduce((acc, line) => {
+      if (Object.keys(line).length === 1) {
+        const trimmedLineJapanese = line.japanese.trim()
+        return { ...acc, [trimmedLineJapanese]: [] };
+      }
+      const currentElement = (Object.keys(acc)[Object.keys(acc).length - 1]).trim()
+      return {
+        ...acc,
+        [currentElement]: [...acc[currentElement], line],
+      };
+    }, {});
+  fs.writeFileSync(
+    "resources/shardSkills.json",
+    JSON.stringify(rows, null, 2)
+  );
+}
+
 
 function saveMasterQuartz(file) {
   const masterQuartz = xlsx.utils

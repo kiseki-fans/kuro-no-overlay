@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/typeface-sawarabi-gothic/index.css"
+    />
+    <link rel="stylesheet" href="combat.css" />
+    <script src="combat.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        renderOverlay({
+          resourceName: "shardSkills",
+          rowTemplate: (row) => `
+            <td class="japanese">${row.japanese}</td>
+            <td>${row.english}</td>
+            <td>${row.requiredElements}</td>
+            <td>${row.effects}</td>
+        `,
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="filters"></div>
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Japanese</th>
+          <th scope="col">English</th>
+          <th scope="col">Required Elements</th>
+          <th scope="col">Effect(s)</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>

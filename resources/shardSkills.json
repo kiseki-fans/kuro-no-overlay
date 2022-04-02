@@ -1,0 +1,586 @@
+{
+  "WEAPON LINE": [
+    {
+      "japanese": "アースインパクト",
+      "english": "Earth Impact",
+      "requiredElements": "x2 Earth",
+      "effects": "25% Chance to add Earth damage to Normal Attack."
+    },
+    {
+      "japanese": "アースインパクトII",
+      "english": "Earth Impact II",
+      "requiredElements": "x8 Earth",
+      "effects": "25% Chance to add (L) Earth damage to Normal Attack."
+    },
+    {
+      "japanese": "アクアインパクト",
+      "english": "Aqua Impact",
+      "requiredElements": "x2 Water",
+      "effects": "25% Chance to add Water damage to Normal Attack."
+    },
+    {
+      "japanese": "アクアインパクトII",
+      "english": "Aqua Impact II",
+      "requiredElements": "x8 Water",
+      "effects": "25% Chance to add (L) Water damage to Normal Attack."
+    },
+    {
+      "japanese": "フレアインパクト",
+      "english": "Flare Impact",
+      "requiredElements": "x2 Fire",
+      "effects": "25% Chance to add Fire damage to Normal Attack."
+    },
+    {
+      "japanese": "フレアインパクトII",
+      "english": "Flare Impact II",
+      "requiredElements": "x8 Fire",
+      "effects": "25% Chance to add (L) Fire damage to Normal Attack."
+    },
+    {
+      "japanese": "ゲイルインパクト",
+      "english": "Gale Impact",
+      "requiredElements": "x2 Wind",
+      "effects": "25% Chance to add Wind damage to Normal Attack."
+    },
+    {
+      "japanese": "ゲイルインパクトII",
+      "english": "Gale Impact II",
+      "requiredElements": "x8 Wind",
+      "effects": "25% Chance to add (L) Wind damage to Normal Attack."
+    },
+    {
+      "japanese": "クロノインパクト",
+      "english": "Chrono Impact",
+      "requiredElements": "x2 Time",
+      "effects": "25% Chance to add Time damage to Normal Attack."
+    },
+    {
+      "japanese": "クロノインパクトII",
+      "english": "Chrono Impact II",
+      "requiredElements": "x8 Time",
+      "effects": "25% Chance to add (L) Time damage to Normal Attack. "
+    },
+    {
+      "japanese": "ゴルトインパクト",
+      "english": "Gold Impact",
+      "requiredElements": "x2 Space",
+      "effects": "25% Chance to add Space damage to Normal Attack."
+    },
+    {
+      "japanese": "ゴルトインパクトII",
+      "english": "Gold Impact II",
+      "requiredElements": "x8 Space",
+      "effects": "25% Chance to add (L) Space damage to Normal Attack."
+    },
+    {
+      "japanese": "カオスインパクト",
+      "english": "Chaos Impact",
+      "requiredElements": "x2 Mirage",
+      "effects": "25% Chance to add Mirage damage to Normal Attack."
+    },
+    {
+      "japanese": "カオスインパクトII",
+      "english": "Chaos Impact II",
+      "requiredElements": "x8 Mirage",
+      "effects": "25% Chance to add (L) Mirage damage to Normal Attack."
+    },
+    {
+      "japanese": "ソードブレイカー",
+      "english": "Sword Breaker",
+      "requiredElements": "x4 Fire, x4 Mirage",
+      "effects": "20% Chance to add STR Down to Normal Attack."
+    },
+    {
+      "japanese": "シールドブレイカー",
+      "english": "Shield Breaker",
+      "requiredElements": "x4 Earth, x4 Mirage",
+      "effects": "20% Chance ot add DEF Down to Normal Attack."
+    },
+    {
+      "japanese": "破剣の強襲",
+      "english": "Sword Break Assault",
+      "requiredElements": "x6 Fire, x6 Space",
+      "effects": "50% Chance to add STR Down to Preemptive Shard Attack."
+    },
+    {
+      "japanese": "破盾の強襲",
+      "english": "Shield Break Assault",
+      "requiredElements": "x6 Earth, x6 Space",
+      "effects": "50% Chance to add DEF Down to Preemptive Shard Attack."
+    },
+    {
+      "japanese": "フェイタルランサー",
+      "english": "Fatal Lancer",
+      "requiredElements": "x4 Earth, x8 Time",
+      "effects": "Deliver a finishing blow when attacking an enemy with low HP."
+    },
+    {
+      "japanese": "フェイタルランサー改",
+      "english": "Fatal Lancer EX",
+      "requiredElements": "x6 Earth, x12 Time",
+      "effects": "Deliver a finishing blow when attacking an enemy with low HP. (Higher HP threshold?)"
+    },
+    {
+      "japanese": "バーストゲイン",
+      "english": "Burst Gain",
+      "requiredElements": "x3 Water, x12 Fire",
+      "effects": "25% Chance to recover HP+CP when attacking."
+    },
+    {
+      "japanese": "エクスキューショナー",
+      "english": "Executioner",
+      "requiredElements": "x6 Fire, x12 Wind",
+      "effects": "Chance to deal an additional attack on a stunned enemy."
+    }
+  ],
+  "SHIELD LINE": [
+    {
+      "japanese": "アースレジスト",
+      "english": "Earth Resist",
+      "requiredElements": "x2 Earth",
+      "effects": "50% Chance to nullify Erosion from an enemy attack."
+    },
+    {
+      "japanese": "アースレジストII",
+      "english": "Earth Resist II",
+      "requiredElements": "x7 Earth",
+      "effects": "75% Chance to nullify Erosion from an enemy attack."
+    },
+    {
+      "japanese": "アクアレジスト",
+      "english": "Aqua Resist ",
+      "requiredElements": "x2 Water",
+      "effects": "50% Chance to nullify Freeze from an enemy attack."
+    },
+    {
+      "japanese": "アクアレジストII",
+      "english": "Aqua Resist II",
+      "requiredElements": "x7 Water",
+      "effects": "75% Chance to nullify Freeze from an enemy attack."
+    },
+    {
+      "japanese": "フレアレジスト",
+      "english": "Flare Resist",
+      "requiredElements": "x2 Fire",
+      "effects": "50% Chance to nullify Burn from an enemy attack."
+    },
+    {
+      "japanese": "フレアレジストII",
+      "english": "Flare Resist II",
+      "requiredElements": "x7 Fire",
+      "effects": "75% Chance to nullify Burn from an enemy attack."
+    },
+    {
+      "japanese": "ゲイルレジスト",
+      "english": "Gale Resist",
+      "requiredElements": "x2 Wind",
+      "effects": "50% Chance to nullify Seal from an enemy attack."
+    },
+    {
+      "japanese": "ゲイルレジストII",
+      "english": "Gale Resist II",
+      "requiredElements": "x7 Wind",
+      "effects": "75% Chance to nullify Seal from an enemy attack."
+    },
+    {
+      "japanese": "ダークレジスト",
+      "english": "Dark Resist",
+      "requiredElements": "x2 Time",
+      "effects": "50% Chance to nullify Shade from an enemy attack."
+    },
+    {
+      "japanese": "ダークレジストII",
+      "english": "Dark Resist II",
+      "requiredElements": "x7 Time",
+      "effects": "75% Chance to nullify Shade from an enemy attack."
+    },
+    {
+      "japanese": "ゴルトレジスト",
+      "english": "Gold Resist",
+      "requiredElements": "x2 Space",
+      "effects": "50% Chance to nullify Mute from an enemy attack."
+    },
+    {
+      "japanese": "ゴルトレジストII",
+      "english": "Gold Resist II",
+      "requiredElements": "x7 Space",
+      "effects": "75% Chance to nullify Mute from an enemy attack."
+    },
+    {
+      "japanese": "カオスレジスト",
+      "english": "Chaos Resist",
+      "requiredElements": "x2 Mirage",
+      "effects": "50% Chance to nullify Fear from an enemy attack."
+    },
+    {
+      "japanese": "カオスレジストII",
+      "english": "Chaos Resist II",
+      "requiredElements": "x7 Mirage",
+      "effects": "75% Chance to nullify Fear from an enemy attack."
+    },
+    {
+      "japanese": "カバーシールド",
+      "english": "Cover Shield",
+      "requiredElements": "x2 Earth",
+      "effects": "When an ally is attacked, 10% chance to reduce damage."
+    },
+    {
+      "japanese": "カバーシールドII",
+      "english": "Cover Shield II",
+      "requiredElements": "x8 Earth",
+      "effects": "When an ally is attacked, 20% chance to reduce damage."
+    },
+    {
+      "japanese": "フォルテガード",
+      "english": "Forte Guard",
+      "requiredElements": "x6 Earth, x6 Fire",
+      "effects": "50% Chance to increase Attack when defending."
+    },
+    {
+      "japanese": "クレストガード",
+      "english": "Crest Guard",
+      "requiredElements": "x6 Earth, x6 Time",
+      "effects": "50% Chance to increase Defense when defending."
+    },
+    {
+      "japanese": "リカバーガード",
+      "english": "Recover Guard",
+      "requiredElements": "x6 Water, x6 Space",
+      "effects": "50% Chance to recover HP when defending."
+    },
+    {
+      "japanese": "ライズガード",
+      "english": "Rise Guard",
+      "requiredElements": "x6 Fire, x6 Wind",
+      "effects": "50% Chance to recover CP for several turns after defending."
+    },
+    {
+      "japanese": "リベンジアロー",
+      "english": "Revenge Arrow",
+      "requiredElements": "x3 Wind, x12 Time",
+      "effects": "When an ally is attacked, 20% chance to counterattack the enemy."
+    },
+    {
+      "japanese": "セラフィムフォース",
+      "english": "Seraphim Force",
+      "requiredElements": "x6 Water, x12 Space",
+      "effects": "Survive K.O with 1 HP; Recover HP/EP/CP (M)."
+    }
+  ],
+  "DRIVE LINE": [
+    {
+      "japanese": "アースブースト",
+      "english": "Earth Boost",
+      "requiredElements": "x2 Earth",
+      "effects": "25% Chance to increase damage when attacking with Earth arts."
+    },
+    {
+      "japanese": "アースブーストII",
+      "english": "Earth Boost II",
+      "requiredElements": "x8 Earth",
+      "effects": "50% Chance to increase damage when attacking with Earth arts."
+    },
+    {
+      "japanese": "アクアブースト",
+      "english": "Aqua Boost",
+      "requiredElements": "x2 Water",
+      "effects": "25% Chance to increase damage when attacking with Water arts."
+    },
+    {
+      "japanese": "アクアブーストII",
+      "english": "Aqua Boost II",
+      "requiredElements": "x8 Water",
+      "effects": "50% Chance to increase damage when attacking with Water arts."
+    },
+    {
+      "japanese": "フレアブースト",
+      "english": "Flare Boost",
+      "requiredElements": "x2 Fire",
+      "effects": "25% Chance to increase damage when attacking with Fire arts."
+    },
+    {
+      "japanese": "フレアブーストII",
+      "english": "Flare Boost II",
+      "requiredElements": "x8 Fire",
+      "effects": "50% Chance to increase damage when attacking with Fire arts."
+    },
+    {
+      "japanese": "ゲイルブースト",
+      "english": "Gale Boost",
+      "requiredElements": "x2 Wind",
+      "effects": "25% Chance to increase damage when attacking with Wind arts."
+    },
+    {
+      "japanese": "ゲイルブーストII",
+      "english": "Gale Boost II",
+      "requiredElements": "x8 Wind",
+      "effects": "50% Chance to increase damage when attacking with Wind arts."
+    },
+    {
+      "japanese": "クロノブースト",
+      "english": "Chrono Boost",
+      "requiredElements": "x2 Time",
+      "effects": "25% Chance to increase damage when attacking with Time arts."
+    },
+    {
+      "japanese": "クロノブーストII",
+      "english": "Chrono Boost II",
+      "requiredElements": "x8 Time",
+      "effects": "50% Chance to increase damage when attacking with Time arts."
+    },
+    {
+      "japanese": "ゴルトブースト",
+      "english": "Gold Boost",
+      "requiredElements": "x2 Space",
+      "effects": "25% Chance to increase damage when attacking with Space arts."
+    },
+    {
+      "japanese": "ゴルトブーストII",
+      "english": "Gold Boost II",
+      "requiredElements": "x8 Space",
+      "effects": "50% Chance to increase damage when attacking with Space arts."
+    },
+    {
+      "japanese": "カオスブースト",
+      "english": "Chaos Boost",
+      "requiredElements": "x2 Mirage",
+      "effects": "25% Chance to increase damage when attacking with Mirage arts."
+    },
+    {
+      "japanese": "カオスブーストII",
+      "english": "Chaos Boost II",
+      "requiredElements": "x8 Mirage",
+      "effects": "50% Chance to increase damage when attacking with Mirage arts."
+    },
+    {
+      "japanese": "マインドクラッカー",
+      "english": "Mind Cracker",
+      "requiredElements": "x4 Wind, x4 Mirage",
+      "effects": "20% Chance to add ATS Down to arts attacks."
+    },
+    {
+      "japanese": "スピリットクラッカー",
+      "english": "Spirit Cracker",
+      "requiredElements": "x4 Water, x4 Mirage",
+      "effects": "20% Chance to add ADF Down to arts attacks."
+    },
+    {
+      "japanese": "破言の強襲",
+      "english": "Mind Break Assault",
+      "requiredElements": "x6 Wind, x6 Time",
+      "effects": "50% Chance to add ATS Down to arts attacks."
+    },
+    {
+      "japanese": "破霊の強襲",
+      "english": "Spirit Break Assault",
+      "requiredElements": "x6 Water, x6 Time",
+      "effects": "50% Chance to add ADF Down to arts attacks."
+    },
+    {
+      "japanese": "アークフェザー",
+      "english": "Arc Feather",
+      "requiredElements": "x4 Wind, x8 Mirage",
+      "effects": "40% Chance to add Delay to arts damage."
+    },
+    {
+      "japanese": "アークフェザー改",
+      "english": "Arc Feather EX",
+      "requiredElements": "x6 Wind, x12 Mirage",
+      "effects": "50% Chance to add Delay to arts damage."
+    },
+    {
+      "japanese": "カタラクトゲイン",
+      "english": "Cataract Gain",
+      "requiredElements": "x12 Earth, x3 Water",
+      "effects": "50% Chance to recover EP when attacking an enemy with arts."
+    },
+    {
+      "japanese": "アヴェンジャースペル",
+      "english": "Avenger Spell",
+      "requiredElements": "x6 Fire, x12 Space",
+      "effects": "When evading an enemy's Magic attack, 50% chance to counter\nwith an Art currently in your possession."
+    }
+  ],
+  "EXTRA LINE": [
+    {
+      "japanese": "ガードスターター",
+      "english": "Guard Starter",
+      "requiredElements": "x4 Earth",
+      "effects": "25% Chance of DEF+ADF Up upon Shard deployment."
+    },
+    {
+      "japanese": "ガードスターターII",
+      "english": "Guard Starter II",
+      "requiredElements": "x8 Earth",
+      "effects": "50% Chance of DEF+ADF Up (M) upon Shard deployment."
+    },
+    {
+      "japanese": "エナジースターター",
+      "english": "Energy Starter",
+      "requiredElements": "x4 Water",
+      "effects": "Upon Shard deployment, 25% chance to recover HP every turn."
+    },
+    {
+      "japanese": "エナジースターターII",
+      "english": "Energy Starter II",
+      "requiredElements": "x8 Water",
+      "effects": "Upon Shard deployment, 50% chance to recover HP (M) every turn."
+    },
+    {
+      "japanese": "パワースターター",
+      "english": "Power Starter",
+      "requiredElements": "x4 Fire",
+      "effects": "25% Chance of STR Up upon Shard deployment."
+    },
+    {
+      "japanese": "パワースターターII",
+      "english": "Power Starter II",
+      "requiredElements": "x8 Fire",
+      "effects": "50% Chance of STR Up (M) upon Shard deployment."
+    },
+    {
+      "japanese": "ギフトスターター",
+      "english": "Gift Starter",
+      "requiredElements": "x4 Wind",
+      "effects": "Upon Shard deployment, 25% chance to have 1 turn of Insight."
+    },
+    {
+      "japanese": "ギフトスターターII",
+      "english": "Gift Starter II",
+      "requiredElements": "x8 Wind",
+      "effects": "Upon Shard deployment, 50% chance to have 2 turns of Insight."
+    },
+    {
+      "japanese": "クイックスターター",
+      "english": "Quick Starter",
+      "requiredElements": "x4 Time",
+      "effects": "25% Chance of Quick upon Shard deployment."
+    },
+    {
+      "japanese": "クイックスターターII",
+      "english": "Quick Starter II",
+      "requiredElements": "x8 Time",
+      "effects": "50% Chance of Quick (M) upon Shard deployment."
+    },
+    {
+      "japanese": "アーツスターター",
+      "english": "Arts Starter",
+      "requiredElements": "x4 Space",
+      "effects": "25% Chance of ATS Up upon Shard deployment."
+    },
+    {
+      "japanese": "アーツスターターII",
+      "english": "Arts Starter II",
+      "requiredElements": "x8 Space",
+      "effects": "50% Chance of ATS Up (M) upon Shard deployment."
+    },
+    {
+      "japanese": "ファントムスターター",
+      "english": "Phantom Starter",
+      "requiredElements": "x4 Mirage",
+      "effects": "Upon Shard deployment, 25% chance to have 1 turn of Stealth."
+    },
+    {
+      "japanese": "ファントムスターターII",
+      "english": "Phantom Starter II",
+      "requiredElements": "x8 Mirage",
+      "effects": "Upon Shard deployment, 50% chance to have 2 turns of Stealth."
+    },
+    {
+      "japanese": "トレジャーハンター",
+      "english": "Treasure Hunter",
+      "requiredElements": "x2 Mirage",
+      "effects": "View all Treasure Chests in the field on your Minimap."
+    },
+    {
+      "japanese": "ホークアイ",
+      "english": "Hawk Eye",
+      "requiredElements": "x2 Space",
+      "effects": "View all Enemies in the field on your Minimap."
+    },
+    {
+      "japanese": "レッグブレイカー",
+      "english": "Leg Breaker",
+      "requiredElements": "x4 Wind, x4 Time",
+      "effects": "Inflict Slow on the enemy when attacking."
+    },
+    {
+      "japanese": "HPチャージャー",
+      "english": "HP Charger",
+      "requiredElements": "x5 Water, x5 Space",
+      "effects": "When Command Battle ends, recover the user's HP (S)."
+    },
+    {
+      "japanese": "HPチャージャーII",
+      "english": "HP Charger II",
+      "requiredElements": "x9 Water, x9 Space",
+      "effects": "When Command Battle ends, recover the user's HP (M)."
+    },
+    {
+      "japanese": "EPチャージャー",
+      "english": "EP Charger",
+      "requiredElements": "x5 Earth, x5 Water",
+      "effects": "When Command Battle ends, recover the user's EP (S)."
+    },
+    {
+      "japanese": "EPチャージャーII",
+      "english": "EP Charger II",
+      "requiredElements": "x9 Earth, x9 Water",
+      "effects": "When Command Battle ends, recover the user's EP (M)."
+    },
+    {
+      "japanese": "CPチャージャー",
+      "english": "CP Charger",
+      "requiredElements": "x5 Fire, x5 Wind",
+      "effects": "When Command Battle ends, recover the user's CP (S)."
+    },
+    {
+      "japanese": "CPチャージャーII",
+      "english": "CP Charger II",
+      "requiredElements": "x9 Fire, x9 Wind",
+      "effects": "When Command Battle ends, recover the user's CP (M)."
+    },
+    {
+      "japanese": "破迅の強襲",
+      "english": "Speed Break Assault",
+      "requiredElements": "x6 Water, x6 Wind",
+      "effects": "Chance to inflict Slow on all enemies with Preemptive Shard Attack."
+    },
+    {
+      "japanese": "オートクレスト",
+      "english": "Auto Crest",
+      "requiredElements": "x7 Earth, x7 Space",
+      "effects": "In Command Battle, 10% chance of Defense Up upon character's turn."
+    },
+    {
+      "japanese": "オートフォルテ",
+      "english": "Auto Forte",
+      "requiredElements": "x7 Fire, x7 Mirage",
+      "effects": "In Command Battle, 10% chance of Attack Up upon character's turn."
+    },
+    {
+      "japanese": "オートクイック",
+      "english": "Auto Quick",
+      "requiredElements": "x7 Wind, x7 Time",
+      "effects": "In Command Battle, 10% chance of Quick upon character's turn."
+    },
+    {
+      "japanese": "クライシスフォース",
+      "english": "Crisis Force",
+      "requiredElements": "x6 Fire, x12 Space",
+      "effects": "In Command Battle, 50% chance of All Stats Up when in a pinch."
+    },
+    {
+      "japanese": "スクラムアップ",
+      "english": "S.C.L.M Up",
+      "requiredElements": "x12 Water, x6 Time",
+      "effects": "In Command Battle, increase the range of S.C.L.M Link."
+    },
+    {
+      "japanese": "ギフトスティール",
+      "english": "Gift Steal",
+      "requiredElements": "x6 Wind, x12 Mirage",
+      "effects": "25% Chance to steal the enemy's AT Bonus when attacking."
+    }
+  ]
+}
