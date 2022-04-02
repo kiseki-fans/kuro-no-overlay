@@ -1,0 +1,688 @@
+{
+  "EARTH": [
+    {
+      "japanese": "ストーンクラック",
+      "english": "Stone Crack",
+      "stats": "Attack (Power D): Cone"
+    },
+    {
+      "japanese": "アシッドクラウド",
+      "english": "Acid Cloud",
+      "stats": "Attack (Power C): Circle (M) ",
+      "notes": "Inflicts Erosion."
+    },
+    {
+      "japanese": "アンバークラック",
+      "english": "Amber Crack",
+      "stats": "Attack (Power B+): Cone"
+    },
+    {
+      "japanese": "タナトスジェイル",
+      "english": "Thanatos Jail",
+      "stats": "Attack (Power A+): Circle (LL)",
+      "notes": "Inflicts Erosion."
+    },
+    {
+      "japanese": "クレスト",
+      "english": "Crest",
+      "stats": "Support: Circle (M",
+      "notes": "DEF Up (S)"
+    },
+    {
+      "japanese": "ラ・クレスト",
+      "english": "La Crest",
+      "stats": "Support: Circle (LL)",
+      "notes": "DEF Up (M)"
+    },
+    {
+      "japanese": "アースガード",
+      "english": "Earth Guard",
+      "stats": "Support: Circle (M)",
+      "notes": "Damage Shield: M (1000 HP)"
+    },
+    {
+      "japanese": "アイギスシールド",
+      "english": "Aegis Shield",
+      "stats": "Support: Circle (LL)",
+      "notes": "Damage Shield: L (3000 HP)"
+    },
+    {
+      "japanese": "防御",
+      "english": "Defense 1/2/3",
+      "stats": "Increases DEF. 15/30/60; Adds x2/x4/x6 Earth."
+    },
+    {
+      "japanese": "EP",
+      "english": "EP 1/2/3",
+      "stats": "Increases Max EP. 60/120/240; Adds x2/x4/x6 Earth."
+    },
+    {
+      "japanese": "腐蝕の刃",
+      "english": "Erosion 1/2",
+      "stats": "STR+3/STR+6; Adds x3/x5 Earth.",
+      "notes": "Chance to inflict Erosion on Attack/Craft - 10%/20%.\nExclusive to WEAPON and EXTRA Line."
+    },
+    {
+      "japanese": "地霊の詩",
+      "english": "Earth Spirit's Verse",
+      "stats": "ATS+5; Adds x3 Earth.",
+      "notes": "Delay after casting Earth Arts reduced to 2/3.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "大地の詩",
+      "english": "Land's Verse",
+      "stats": "ATS+10; Adds x5 Earth.",
+      "notes": "Delay after casting Earth Arts is halved.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "黄晶の輪",
+      "english": "Topaz Ring",
+      "stats": "HP+150; Adds x3 Earth.",
+      "notes": "DEF+ADF Up (S) in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "鋼玉の輪",
+      "english": "Corundum Ring",
+      "stats": "HP+600; Adds x5 Earth.",
+      "notes": "DEF+ADF Up (M) in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "耀脈",
+      "english": "Septium Vein",
+      "stats": "Adds x4 Earth, x2 Fire.",
+      "notes": "Increases Sepith dropped by defeated enemies by 30%."
+    },
+    {
+      "japanese": "タロス",
+      "english": "Talos",
+      "stats": "Adds x5 Earth, x3 Wind.",
+      "notes": "Increases damage dealt to a stunned enemy by 50%."
+    },
+    {
+      "japanese": "リンドバウム",
+      "english": "Lindbaum",
+      "stats": "Adds x6 Earth, x4 Mirage.",
+      "notes": "Increases Arts damage by 50% in exchange for multiplying delay after casting by 1.5."
+    }
+  ],
+  "WATER": [
+    {
+      "japanese": "テイア",
+      "english": "Tear",
+      "stats": "Recovery: Single",
+      "notes": "HP Recovery (S)"
+    },
+    {
+      "japanese": "テイアラ",
+      "english": "Teara",
+      "stats": "Recovery: Single",
+      "notes": "HP Recovery (M)"
+    },
+    {
+      "japanese": "テイアラル",
+      "english": "Tearal",
+      "stats": "Recovery: Single",
+      "notes": "HP Recovery (L)"
+    },
+    {
+      "japanese": "Sキュリア",
+      "english": "S-Curia",
+      "stats": "Recovery: Single",
+      "notes": "Removes all Status Ailments."
+    },
+    {
+      "japanese": "ハイドロカノン",
+      "english": "Hydro Cannon",
+      "stats": "Attack (Power D); Area: Line (S)"
+    },
+    {
+      "japanese": "アイシクルハンマー",
+      "english": "Icicle Hammer",
+      "stats": "Attack (Power C); Area: Circle (M)"
+    },
+    {
+      "japanese": "カタラクトウェイヴ",
+      "english": "Cataract Wave",
+      "stats": "Attack (Power B+); Area: Cone-Line "
+    },
+    {
+      "japanese": "クリスタルエデン",
+      "english": "Crystal Eden",
+      "stats": "Attack (Power A); Area: Circle (LL)",
+      "notes": "Inflicts Freeze."
+    },
+    {
+      "japanese": "HP",
+      "english": "HP 1/2/3",
+      "stats": "Increases HP. 400/800/1000; x2/4/6 Water."
+    },
+    {
+      "japanese": "魔防",
+      "english": "Shield 1/2/3",
+      "stats": "ADF+10/20/40, Magic Evasion+2/4/8; x2/4/6 Water."
+    },
+    {
+      "japanese": "凍結の刃",
+      "english": "Freeze 1/2",
+      "stats": "STR+3/STR+6; Adds x3/x5 Water.",
+      "notes": "Chance to inflict Freeze on Attack/Craft - 10%/20%.\nExclusive to WEAPON and EXTRA Line."
+    },
+    {
+      "japanese": "水霊の詩",
+      "english": "Water Spirit's Verse",
+      "stats": "ATS+5; x3 Water.",
+      "notes": "Delay after casting Water Arts reduced to 2/3. \nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "蒼氷の詩",
+      "english": "Pale Ice Verse",
+      "stats": "ATS+10; x5 Water.",
+      "notes": "Delay after casting Water Arts is halved.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "青晶の輪",
+      "english": "Sapphire Ring",
+      "stats": "HP+150; x3 Water.",
+      "notes": "Gradual HP Recovery (S) in a pinch. \nExclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "藍玉の輪",
+      "english": "Indigo Ring",
+      "stats": "HP+600; x5 Water.",
+      "notes": "Gradual HP Recovery (M) in a pinch.\nExclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "慈愛",
+      "english": "Affection",
+      "stats": "x4 Water, x2 Earth.",
+      "notes": "Effect of recovery Arts+50%."
+    },
+    {
+      "japanese": "ローレライ",
+      "english": "Lorelei",
+      "stats": "x4 Water, x3 Space.",
+      "notes": "50% Chance for Arts to Critical. Obtained from Achievement:\nActivated S.C.L.M Support 500 times."
+    },
+    {
+      "japanese": "ヴォルフグリフ",
+      "english": "Wolf Glyph",
+      "stats": "x6 Water, x4 Time.",
+      "notes": "Increases Magic damage when at higher HP (Maximum 50%).\nObtained from Achievement: Level all Hollow Cores to MAX."
+    }
+  ],
+  "FIRE": [
+    {
+      "japanese": "ファイアボルト\t",
+      "english": "Fire Bolt",
+      "stats": "Attack (Power D); Area: Circle (S)",
+      "notes": "Inflicts Burn."
+    },
+    {
+      "japanese": "アビスフレイム",
+      "english": "Abyss Flame",
+      "stats": "Attack (Power C); Area: Cone",
+      "notes": "Inflicts Shade+Burn."
+    },
+    {
+      "japanese": "フレアスコール",
+      "english": "Flare Squall",
+      "stats": "Attack (Power B); Area: Circle (L)",
+      "notes": "Inflicts Burn."
+    },
+    {
+      "japanese": "レグルスキャリバー",
+      "english": "Regulus Calibur",
+      "stats": "Attack (Power A+); Area: Circle (M)",
+      "notes": "Inflicts Burn."
+    },
+    {
+      "japanese": "フォルテ",
+      "english": "Forte",
+      "stats": "Support: Circle (M)",
+      "notes": "STR Up (S)"
+    },
+    {
+      "japanese": "ラ・フォルテ",
+      "english": "La Forte",
+      "stats": "Support: Circle (LL)",
+      "notes": "STR Up (M)"
+    },
+    {
+      "japanese": "攻撃",
+      "english": "Attack 1/2/3",
+      "stats": "STR+6/12/24; x2/4/6 Fire."
+    },
+    {
+      "japanese": "破壊",
+      "english": "Destruction 1/2/3",
+      "stats": "x2/4/6 Fire.",
+      "notes": "Increases damage to Stun gauge by 20%/40%/60%."
+    },
+    {
+      "japanese": "炎傷の刃",
+      "english": "Burn 1/2",
+      "stats": "STR+3/+6; x3/x5 Fire.",
+      "notes": "Chance to inflict Burn on Attack/Craft - 10%/20%.\nExclusive to WEAPON and EXTRA Line."
+    },
+    {
+      "japanese": "火霊の詩",
+      "english": "Fire Spirit's Verse",
+      "stats": "ATS+5; x3 Fire.",
+      "notes": "Delay after casting Fire Arts reduced to 2/3.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "業火の詩",
+      "english": "Hellfire Verse",
+      "stats": "ATS+10; x5 Fire.",
+      "notes": "Delay after casting Fire Arts is halved.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "赤晶の輪",
+      "english": "Crimson Ring",
+      "stats": "HP+150; x3 Fire.",
+      "notes": "STR Up (S) in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "紅玉の輪",
+      "english": "Ruby Ring",
+      "stats": "HP+600; x5 Fire.",
+      "notes": "STR Up (M) in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "猛襲",
+      "english": "Onslaught",
+      "stats": "x4 Fire, x2 Wind.",
+      "notes": "Increases damage of Preemptive Shard Attack by x1.2."
+    },
+    {
+      "japanese": "セキトバ",
+      "english": "Sekitoba",
+      "stats": "x5 Fire, x3 Water.",
+      "notes": "Increases CP Recovery when damaged by x5. Obtained at Rank B++."
+    },
+    {
+      "japanese": "アグナガルン",
+      "english": "Agnagarn",
+      "stats": "x6 Fire, x4 Time.",
+      "notes": "Increases Physical damage when at higher HP (Maximum 50%).\nObtained from Achievement: Cleared all Battle Simulators."
+    }
+  ],
+  "WIND": [
+    {
+      "japanese": "スパークエッジ",
+      "english": "Spark Edge",
+      "stats": "Attack (Power D); Area: Circle (S)"
+    },
+    {
+      "japanese": "エアリアルダスト",
+      "english": "Aerial Dust",
+      "stats": "Attack (Power C+); Area: Circle (M)"
+    },
+    {
+      "japanese": "プラズマスフィア",
+      "english": "Plasma Sphere",
+      "stats": "Attack (Power B); Area: Circle (L)",
+      "notes": "Inflicts Seal."
+    },
+    {
+      "japanese": "タイラントストーム",
+      "english": "Tyrant Storm",
+      "stats": "Attack (Power A); Area: Circle (LL)",
+      "notes": "Inflicts Seal."
+    },
+    {
+      "japanese": "ブレス",
+      "english": "Breath",
+      "stats": "Recovery: Circle (L)",
+      "notes": "HP Recovery (S)"
+    },
+    {
+      "japanese": "オーラブレス",
+      "english": "Aura Breath",
+      "stats": "Recovery: Circle (LL)",
+      "notes": "HP Recovery (M)"
+    },
+    {
+      "japanese": "ヴェール",
+      "english": "Veil",
+      "stats": "Support: Circle (L)",
+      "notes": "Removes all Status Ailments while increasing Resistance."
+    },
+    {
+      "japanese": "回避",
+      "english": "Evade 1/2/3",
+      "stats": "Evasion+4/8/16%. x2/4/6 Wind."
+    },
+    {
+      "japanese": "必殺",
+      "english": "Critical 1/2/3",
+      "stats": "Critical+6/12/24%. x2/4/6 Wind."
+    },
+    {
+      "japanese": "封技の刃",
+      "english": "Seal 1/2",
+      "stats": "STR+3/STR+6. x3/x5 Wind.",
+      "notes": "Chance to inflict Seal on Attack/Craft - 10%/20%.\nExclusive to WEAPON and EXTRA Line."
+    },
+    {
+      "japanese": "風霊の詩",
+      "english": "Wind Spirit's Verse",
+      "stats": "ATS+5; x3 Wind.",
+      "notes": "Delay after casting Wind Arts reduced to 2/3.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "威風の詩",
+      "english": "Majestic Verse",
+      "stats": "ATS+10; x5 Wind.",
+      "notes": "Delay after casting Wind Arts is halved.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "緑晶の輪",
+      "english": "Jade Ring",
+      "stats": "HP+150; x3 Wind.",
+      "notes": "1 Turn of Insight in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "翠玉の輪",
+      "english": "Emerald Ring",
+      "stats": "HP+600; x5 Wind.",
+      "notes": "2 Turns of Insight in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "美臭",
+      "english": "Scent",
+      "stats": "x4 Wind, x2 Water.",
+      "notes": "90% Chance for enemies to target user during Command Battle."
+    },
+    {
+      "japanese": "スプライト",
+      "english": "Sprite",
+      "stats": "x5 Wind, x3 Space.",
+      "notes": "Range of Recovery items increased by 10m. Obtained at Rank C."
+    },
+    {
+      "japanese": "ヘイズルーン",
+      "english": "Heidrun",
+      "stats": "x6 Wind, x4 Mirage.",
+      "notes": "Critical damage of Normal Attacks and Crafts increased by 100%.\nObtained from Achievement: Activated S.C.L.M Chain 500 times."
+    }
+  ],
+  "TIME": [
+    {
+      "japanese": "シャドウスピア",
+      "english": "Shadow Spear",
+      "stats": "Attack (Power C+); Area: Cone"
+    },
+    {
+      "japanese": "オブシディアレイ",
+      "english": "Obsidian Ray",
+      "stats": "Attack (Power B+); Area: Line (M)",
+      "notes": "Inflicts Delay+Shade."
+    },
+    {
+      "japanese": "プルートゥスノヴァ",
+      "english": "Plutos Nova",
+      "stats": "Attack (Power S); All ",
+      "notes": "Inflicts Shade+Deathblow."
+    },
+    {
+      "japanese": "クロノドライブ",
+      "english": "Chrono Drive",
+      "stats": "Support: Circle (L)",
+      "notes": "Bestows Quick on allies."
+    },
+    {
+      "japanese": "クロノブレイク",
+      "english": "Chrono Break",
+      "stats": "Support: Circle (L)",
+      "notes": "Inflicts Slow."
+    },
+    {
+      "japanese": "行動力",
+      "english": "Action 1/2/3",
+      "stats": "SPD+4/8/16. x2/4/6 Time."
+    },
+    {
+      "japanese": "駆動",
+      "english": "Cast 1/2/3",
+      "stats": "x2/4/6 Time.",
+      "notes": "Decreases Arts casting time by 10%/20%/40%."
+    },
+    {
+      "japanese": "冥暗の刃",
+      "english": "Shade 1/2",
+      "stats": "STR+3/STR+6. x3/x5 Time.",
+      "notes": "Chance to inflict Shade on Attack/Craft - 10%/20%.\nExclusive to WEAPON and EXTRA Line."
+    },
+    {
+      "japanese": "星霊の詩",
+      "english": "Cosmic Verse",
+      "stats": "ATS+5; x3 Time.",
+      "notes": "Delay after casting Time Arts reduced to 2/3.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "暁星の詩",
+      "english": "Morning Star Verse",
+      "stats": "ATS+10, x5 Time.",
+      "notes": "Delay after casting Time Arts is halved.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "紫晶の輪",
+      "english": "Amethyst Ring",
+      "stats": "HP+150; x3 Time.",
+      "notes": "Quick (S) in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "黒銀の輪",
+      "english": "Black Silver Ring",
+      "stats": "HP+600; x5 Time.",
+      "notes": "Quick (M) in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "幸運",
+      "english": "Fortune",
+      "stats": "x4 TIme, x2 Wind.",
+      "notes": "Equipment drop rate from defeated enemies+30%."
+    },
+    {
+      "japanese": "ルサルカ",
+      "english": "Rusalka",
+      "stats": "x5 Time, x3 Earth.",
+      "notes": "S-Craft delay is halved. Obtained from Achievement: Used S-Craft 50 times."
+    },
+    {
+      "japanese": "ヤタガラス",
+      "english": "Yatagarasu",
+      "stats": "x6 Time, x4 Mirage.",
+      "notes": "Increases Physical damage when at lower HP (Maximum 100%).\nObtained from Achievement: Found and opened all Treasure Chests."
+    }
+  ],
+  "SPACE": [
+    {
+      "japanese": "セイントアロー",
+      "english": "Saint Arrow",
+      "stats": "Attack (Power C+); Area: Line (S)",
+      "notes": "Inflicts Mute."
+    },
+    {
+      "japanese": "ロストメビウス",
+      "english": "Lost Moebius",
+      "stats": "Attack (Power B+); Area: Circle (L)",
+      "notes": "Draws in attacked enemies."
+    },
+    {
+      "japanese": "エルドラドアーク",
+      "english": "El Dorado Ark",
+      "stats": "Attack (Power S); Area: Circle (LL)",
+      "notes": "Inflicts ATK+DEF Down."
+    },
+    {
+      "japanese": "セラス",
+      "english": "Thelas",
+      "stats": "Recovery: Single",
+      "notes": "Revives K.O."
+    },
+    {
+      "japanese": "アセラス",
+      "english": "Athelas",
+      "stats": "Recovery: Single",
+      "notes": "Revives K.O."
+    },
+    {
+      "japanese": "セレスティアル",
+      "english": "Celestial",
+      "stats": "Recovery: All",
+      "notes": "Revives K.O. on all allies."
+    },
+    {
+      "japanese": "省ＥＰ",
+      "english": "EP Cut 1/2/3",
+      "stats": "x2/4/6 Space.",
+      "notes": "EP Consumption reduced by 10/20/40%."
+    },
+    {
+      "japanese": "命中",
+      "english": "Hit 1/2/3",
+      "stats": "Accuracy+25/50/100%; Critical+2/4/8%; x2/4/6 Space."
+    },
+    {
+      "japanese": "封魔の刃",
+      "english": "Mute 1/2",
+      "stats": "STR+3/STR+6; x3/x5 Space.",
+      "notes": "Chance to inflict Mute on Attack/Craft - 10%/20%.\nExclusive to WEAPON and EXTRA Line."
+    },
+    {
+      "japanese": "陽霊の詩",
+      "english": "Solar Verse",
+      "stats": "ATS+5; x3 Space.",
+      "notes": "Delay after casting Space Arts reduced to 2/3.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "極光の詩",
+      "english": "Aurora Verse",
+      "stats": "ATS+10, x5 Space.",
+      "notes": "Delay after casting Space Arts is halved.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "金晶の輪",
+      "english": "Citrine Ring",
+      "stats": "HP+150; x3 Space.",
+      "notes": "ATS Up (S) in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "黄金の輪",
+      "english": "Golden Ring",
+      "stats": "HP+600, x5 Space.",
+      "notes": "ATS Up (M) in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "天啓",
+      "english": "Divine Oracle",
+      "stats": "x4 Space, x2 Fire.",
+      "notes": "Extends range of Arts with AOE's+1m."
+    },
+    {
+      "japanese": "ラタトスク",
+      "english": "Ratatosk",
+      "stats": "x5 Space, x3 Earth.",
+      "notes": "20% Chance to absorb Physical damage.\nObtained from Achievement: Opened all characters' Orbment Slots."
+    },
+    {
+      "japanese": "アマルテア",
+      "english": "Amalthea",
+      "stats": "x6 Space, x4 Time.",
+      "notes": "Increases Magic damage when at lower HP (Maximum 100%).\nObtained from Achievement: Defeated 1000 total enemies."
+    }
+  ],
+  "MIRAGE": [
+    {
+      "japanese": "アルジェントソーン",
+      "english": "Argent Thorn",
+      "stats": "Attack (Power B); Area: Circle (M)",
+      "notes": "Inflicts Magic Attack Down."
+    },
+    {
+      "japanese": "ジャバウォックアーム",
+      "english": "Jabberwock Arm",
+      "stats": "Attack (Power C +) Circle (M)",
+      "notes": "Inflicts Fear+Magic Defense Down."
+    },
+    {
+      "japanese": "クレセントアイ",
+      "english": "Crescent Eye",
+      "stats": "Support: Circle (L)",
+      "notes": "Bestows Insight on allies."
+    },
+    {
+      "japanese": "イデアルフォース",
+      "english": "Ideal Force",
+      "stats": "Support: Circle (LL)",
+      "notes": "Magic Attack+Magic Defense Up"
+    },
+    {
+      "japanese": "ゾディアックサイン",
+      "english": "Zodiac Sign",
+      "stats": "Support: Circle (L)",
+      "notes": "Critical Rate Up"
+    },
+    {
+      "japanese": "精神",
+      "english": "Spirit 1/2/3",
+      "stats": "ATS+6/12/24. x2/4/6 Mirage."
+    },
+    {
+      "japanese": "妨害",
+      "english": "Impede 1/2/3",
+      "stats": "x2x4/x6 Mirage.",
+      "notes": "Chance to Impede and Delay on Attack/Craft - 15%/30%/45%."
+    },
+    {
+      "japanese": "恐怖の刃",
+      "english": "Fear 1/2",
+      "stats": "STR+3/STR+6; x3/x5 Mirage.",
+      "notes": "Chance to inflict Fear on Attack/Craft - 10%/20%.\nExclusive to WEAPON and EXTRA Line."
+    },
+    {
+      "japanese": "月霊の詩",
+      "english": "Lunar Verse",
+      "stats": "ATS+5; x3 Mirage.",
+      "notes": "Delay after casting Mirage Arts reduced to 2/3.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "朧月の詩",
+      "english": "Moonlit Verse",
+      "stats": "ATS+10; x5 Mirage.",
+      "notes": "Delay after casting Mirage Arts is halved.\nExclusive to DRIVE and EXTRA Line."
+    },
+    {
+      "japanese": "銀晶の輪",
+      "english": "Moonstone Ring",
+      "stats": "HP+150; x3 Mirage.",
+      "notes": "1 Turn of Stealth in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "白銀の輪",
+      "english": "White Silver Ring",
+      "stats": "HP+600; x5 Mirage.",
+      "notes": "2 Turns of Stealth in a pinch. Exclusive to SHIELD and EXTRA Line."
+    },
+    {
+      "japanese": "空蝉",
+      "english": "Utsusemi",
+      "stats": "x4 Mirage, x2 Water.",
+      "notes": "90% Chance for user to not be targeted by enemies during Command Battle."
+    },
+    {
+      "japanese": "カーバンクル",
+      "english": "Carbuncle",
+      "stats": "x5 Mirage, x3 Fire.",
+      "notes": "20% Chance to absorb Magic damage. \nObtained from Achievement: Reach a Tactical Bonus of 4.0 or higher."
+    },
+    {
+      "japanese": "ハクタク",
+      "english": "Bai Ze",
+      "stats": "x6 Mirage, x4 Space.",
+      "notes": "Chance for an AT Bonus+90%. Obtained from Achievement: Clear all 4spg Quests."
+    }
+  ]
+}

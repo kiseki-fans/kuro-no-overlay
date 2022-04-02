@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="../node_modules/typeface-sawarabi-gothic/index.css"
+    />
+    <link rel="stylesheet" href="combat.css" />
+    <script src="combat.js"></script>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        renderOverlay({
+          resourceName: "artsPlusQuartz",
+          rowTemplate: (artsPlusQuartz) => `
+            <td class="japanese">${artsPlusQuartz.japanese}</td>
+            <td>${artsPlusQuartz.english}</td>
+            <td>${artsPlusQuartz.stats?.replace(/\n/g, "<br>") || ""}</td>
+            <td>${artsPlusQuartz.notes?.replace(/\n/g, "<br>") || ""}</td>
+            <td>${artsPlusQuartz.arts?.replace(/\n/g, "<br>") || ""}</td>
+        `,
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="filters"></div>
+    <table class="tableFixHead">
+      <thead>
+        <tr>
+          <th scope="col">Japanese</th>
+          <th scope="col">English</th>
+          <th scope="col">Stats/Element Given</th>
+          <th scope="col">Notes</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </body>
+</html>
