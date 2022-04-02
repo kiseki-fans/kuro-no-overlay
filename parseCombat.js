@@ -12,7 +12,7 @@ function download(url, cb) {
 
 function downloadAndParseCombat() {
   download(
-    "https://docs.google.com/spreadsheets/d/1gyoxZ5oLcQW4tt5dzFmJ1sqGwP_NxUuM947C5cVAJzE/export?format=xlsx",
+    "https://docs.google.com/spreadsheets/d/1nFGxNg4LYHMkSxSipoCERPhVDwFEHljsQ_O3vPiBYos/export?format=xlsx",
     function xlsxToJson(buffer) {
       const file = xlsx.read(buffer, { type: "buffer" });
       saveCrafts(file);
@@ -78,7 +78,7 @@ function saveQuartz(file) {
 
 function saveArtsPlusQuartz(file) {
   const quartz = xlsx.utils
-    .sheet_to_json(file.Sheets['Arts+Quartz'], {
+    .sheet_to_json(file.Sheets["Arts+Quartz"], {
       header: ["japanese", "english", "stats", "notes"],
     })
     .slice(1)
@@ -95,7 +95,10 @@ function saveArtsPlusQuartz(file) {
         [currentElement]: [...acc[currentElement], line],
       };
     }, {});
-  fs.writeFileSync("resources/artsPlusQuartz.json", JSON.stringify(quartz, null, 2));
+  fs.writeFileSync(
+    "resources/artsPlusQuartz.json",
+    JSON.stringify(quartz, null, 2)
+  );
 }
 
 function saveMasterQuartz(file) {
@@ -220,4 +223,4 @@ function saveDoors(file) {
   fs.writeFileSync("resources/doors.json", JSON.stringify(doors, null, 2));
 }
 
-downloadAndParseCombat();
+module.exports = downloadAndParseCombat;

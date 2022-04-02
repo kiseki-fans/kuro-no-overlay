@@ -5,9 +5,9 @@
     <link rel="stylesheet" href="combat.css" />
     <script src="combat.js"></script>
     <script>
-      window.addEventListener("DOMContentLoaded", () => {
+      window.addEventListener('DOMContentLoaded', () => {
         renderOverlay({
-          resourceName: "crafts",
+          resourceName: 'crafts',
           rowTemplate: (craft) => `
             <td>${craft.type}</td>
             <td>${craft.name}</td>
@@ -26,11 +26,11 @@
       <thead>
         <tr>
           <th scope="col"></th>
-          <th scope="col">CRAFT</th>
+          <th scope="col">Craft Name</th>
           <th scope="col">CP</th>
-          <th scope="col">POWER/BREAK/UNBALANCE</th>
-          <th scope="col">AREA</th>
-          <th scope="col">EFFECTS</th>
+          <th scope="col">Power/Type</th>
+          <th scope="col">AOE</th>
+          <th scope="col">Effects</th>
         </tr>
       </thead>
       <tbody></tbody>

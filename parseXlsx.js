@@ -4,6 +4,7 @@ const https = require("follow-redirects").https;
 const concat = require("concat-stream");
 const path = require("path");
 const getAppDataPath = require("./getAppDataPath");
+const downloadAndParseCombat = require("./parseCombat");
 
 function download(url, cb) {
   const concatStream = concat(cb);
@@ -39,6 +40,8 @@ module.exports = function downloadAndParseTranslations(cb) {
       saveAppData("translation.json", { date: new Date(), ...translations });
     }
   );
+
+  downloadAndParseCombat();
 };
 
 function saveAppData(name, content) {

@@ -1,1990 +1,634 @@
 {
-  "AGATE": [
+  "AARON": [
     {
       "type": "C",
-      "name": "Draguna Edge\n→Draguna Edge II",
+      "name": "Hundred Flower Slash\n→Flaming Flower Slash",
+      "cpCost": 40,
+      "pbu": "C+/Physical\nB/Physical",
+      "aoe": "Area - Cone (S)\nArea - Cone (M)",
+      "effects": "Delay (S)\nDelay (M) [Obtained at level 41]"
+    },
+    {
+      "type": "C",
+      "name": "Talon Kick\n→Twin Talon Kick",
+      "cpCost": 50,
+      "pbu": "A/Physical\nA+/Physical",
+      "aoe": "Single\nSingle",
+      "effects": "Chance to inflict Seal. BACK Positional - Increased damage.\nObtained at level 57."
+    },
+    {
+      "type": "C",
+      "name": "Twin Star Blade",
+      "cpCost": 60,
+      "pbu": "B/Magic",
+      "aoe": "Area - Line (S)",
+      "effects": "Impede+Chance to inflict Mute. [Obtained at level 22]"
+    },
+    {
+      "type": "C",
+      "name": "Dynast Honor",
       "cpCost": 30,
-      "pbu": "C/D/A\nB/D/A",
+      "pbu": "N/A",
+      "aoe": "Self",
+      "effects": "Increases damage dealt relative to amount of sacrificed HP; Insight."
+    },
+    {
+      "type": "S",
+      "name": "Phoenix Dance",
+      "cpCost": 100,
+      "pbu": "SS/Physical",
+      "aoe": "Area - Circle (L)",
+      "effects": "N/A"
+    }
+  ],
+  "AGNES": [
+    {
+      "type": "C",
+      "name": "Etoile Ray\n→Pleiades Ray",
+      "cpCost": 60,
+      "pbu": "B+/Magic\nA/Magic",
+      "aoe": "Area - Line (S)\nArea - Line (L)",
+      "effects": "Magic Defense Down. [Obtained at level 21]\nMagic Defense Down. [Obtained at level 57]"
+    },
+    {
+      "type": "C",
+      "name": "Glow Hammer",
+      "cpCost": 20,
+      "pbu": "D+/Physical",
+      "aoe": "Area - Circle (M)",
+      "effects": "EP Absorption, deals increased damage if performed from behind the enemies. [Obtained at level 4.]"
+    },
+    {
+      "type": "C",
+      "name": "White Heal\n→Innocent Heal",
+      "cpCost": 40,
+      "pbu": "N/A",
+      "aoe": "Support: Self-Circle (L)\nSupport: Self-Circle (LL)",
+      "effects": "HP Recovery (M); Removes all Status Ailments.\nObtained at level 42."
+    },
+    {
+      "type": "S",
+      "name": "Brilliant Halo",
+      "cpCost": 100,
+      "pbu": "N/A",
+      "aoe": "Support: All",
+      "effects": "Full HP Recovery; Recover HP when acting."
+    }
+  ],
+  "BERGARD": [
+    {
+      "type": "C",
+      "name": "Titus Hammer",
+      "cpCost": 50,
+      "pbu": "B/Physical",
+      "aoe": "Area - Circle (M)",
+      "effects": "Delay (M); BACK Positional - Increased damage."
+    },
+    {
+      "type": "C",
+      "name": "Lion King's Bash",
+      "cpCost": 70,
+      "pbu": "A+/Physical",
+      "aoe": "Area - Circle (S)",
+      "effects": "Physical+Magic Defense Down."
+    },
+    {
+      "type": "C",
+      "name": "Howling Burst",
+      "cpCost": 30,
+      "pbu": "D+/Magic",
+      "aoe": "Area - Cone (L)",
+      "effects": "Enhancement; Impede; Increases damage relative to remaining HP; Attack+Defense Up."
+    },
+    {
+      "type": "S",
+      "name": "Six Roaring Thrusts",
+      "cpCost": 100,
+      "pbu": "SS/Physical",
+      "aoe": "Area - Circle (LL)",
+      "effects": "N/A"
+    }
+  ],
+  "FERI": [
+    {
+      "type": "C",
+      "name": "Rapid Burst\n→Rapid Eruption",
+      "cpCost": 20,
+      "pbu": "D+/Physical\nC/Physical",
+      "aoe": "Area - Cone (M)\nArea - Cone (L)",
+      "effects": "Chance to inflict Slow.\nObtained at level 40."
+    },
+    {
+      "type": "C",
+      "name": "Heat Edge\n→Blaze Edge",
+      "cpCost": 50,
+      "pbu": "B+/Physical\nA/Physical",
+      "aoe": "Area - Line (S)\nArea - Line (S)",
+      "effects": "Chance to inflict Burn; SIDE Positional - Increased damage.\nObtained at level 55."
+    },
+    {
+      "type": "C",
+      "name": "Khurga Guardian Sword",
+      "cpCost": "60",
+      "pbu": "B/Magic",
+      "aoe": "Area - Circle (M)",
+      "effects": "Defense and Magic Defense Down. Inflicts Fire damage.\n(Cannot be stacked with the effects of Shard Skill - Flare Impact.) [Obtained at level 31]"
+    },
+    {
+      "type": "C",
+      "name": "Chant of Flame",
+      "cpCost": 40,
+      "pbu": "N/A",
+      "aoe": "Support: Self-Circle (L)",
+      "effects": "Attack Up; CP Recovery when acting. [Obtained at level 10]"
+    },
+    {
+      "type": "S",
+      "name": "Ignis Rampage",
+      "cpCost": 100,
+      "pbu": "S/Physical",
+      "aoe": "Area - Circle (LL)",
+      "effects": "Inflicts Burn."
+    }
+  ],
+  "JUDITH": [
+    {
+      "type": "C",
+      "name": "Twilight Kiss",
+      "cpCost": 60,
+      "pbu": "B/Magic",
+      "aoe": "Area - Cone-Line",
+      "effects": "Chance to Beguile the enemy; Removes enemy's buffs."
+    },
+    {
+      "type": "C",
+      "name": "Wild Snatch",
+      "cpCost": 20,
+      "pbu": "C/Physical",
+      "aoe": "Single",
+      "effects": "HP Absorption; Obtains extra Sepith from the enemy."
+    },
+    {
+      "type": "C",
+      "name": "Criminal Butte",
+      "cpCost": 70,
+      "pbu": "A/Physical",
+      "aoe": "Area - Self-Circle (M)",
+      "effects": "Reduces enemy's Ailment Resistance; SIDE Positional - Increased damage."
+    },
+    {
+      "type": "C",
+      "name": "Grimcatz",
+      "cpCost": 50,
+      "pbu": "N/A",
+      "aoe": "Self",
+      "effects": "Grimcatz Transformation; Adds Magic damage to attacks."
+    },
+    {
+      "type": "S",
+      "name": "Grimnight Waltz",
+      "cpCost": 100,
+      "pbu": "S+/Physical",
+      "aoe": "All",
+      "effects": "Inflicts Shade; Reduces enemy's Ailment Resistance."
+    }
+  ],
+  "RISETTE": [
+    {
+      "type": "C",
+      "name": "Silent Rip",
+      "cpCost": 50,
+      "pbu": "B/Physical",
+      "aoe": "Area - Cone (M)",
+      "effects": "Chance to inflict Deathblow; BACK Positional - Increased damage."
+    },
+    {
+      "type": "C",
+      "name": "Edel Snipe",
+      "cpCost": 20,
+      "pbu": "C/Magic",
+      "aoe": "Area - Line (S)",
+      "effects": "SIDE Positional - Increased damage."
+    },
+    {
+      "type": "C",
+      "name": "Sonic Chaser\n→Lightning Chaser",
+      "cpCost": 60,
+      "pbu": "B+/Physical\nA/Physical",
+      "aoe": "Single\nSingle",
+      "effects": "Quick on Self. [Obtained at level 36]\nObtained at level 60."
+    },
+    {
+      "type": "C",
+      "name": "Cobalt Curtain",
+      "cpCost": 30,
+      "pbu": "N/A",
+      "aoe": "Support: Circle (L)",
+      "effects": "Damage Shield: 2000 HP; Defense and Magic Defense Up."
+    },
+    {
+      "type": "S",
+      "name": "Radiance Seeker",
+      "cpCost": 100,
+      "pbu": "S/Physical",
+      "aoe": "Area - Circle (LL)",
+      "effects": "Chance to inflict Deathblow."
+    }
+  ],
+  "QUATRE": [
+    {
+      "type": "C",
+      "name": "Optical Cannon",
+      "cpCost": 50,
+      "pbu": "C+/Magic",
+      "aoe": "Area - Line (S)",
+      "effects": "Chance to inflict Freeze; SIDE Positional - Increased damage."
+    },
+    {
+      "type": "C",
+      "name": "Procyon Fang",
+      "cpCost": 70,
+      "pbu": "A/Physical",
+      "aoe": "Area - Circle (M)",
+      "effects": "Inflicts Attack and Magic Attack Down. [Obtained through Story progression.]"
+    },
+    {
+      "type": "C",
+      "name": "Satelite Cure",
+      "cpCost": 40,
+      "pbu": "N/A",
+      "aoe": "Support: Circle (L)",
+      "effects": "HP Recovery (M); CP Recovery."
+    },
+    {
+      "type": "C",
+      "name": "Lapras Code",
+      "cpCost": 60,
+      "pbu": "N/A",
+      "aoe": "Support: Circle (M)",
+      "effects": "Damage Shield: 4000 HP; Attack and Magic Attack Up. [Obtained at level 44]"
+    },
+    {
+      "type": "S",
+      "name": "Digamma Driver",
+      "cpCost": 100,
+      "pbu": "S/Magic",
+      "aoe": "Area - Line",
+      "effects": "Inflicts Freeze."
+    }
+  ],
+  "VAN": [
+    {
+      "type": "C",
+      "name": "Stun Slash\n→Magna Slash",
+      "cpCost": 30,
+      "pbu": "C/Physical\nC+/Physical",
+      "aoe": "Area - Cone (M)\nArea - Cone (M)",
+      "effects": "Impede; SIDE Positional - Increased damage.\nObtained at level 29."
+    },
+    {
+      "type": "C",
+      "name": "Aerial Buster\n→Raging Buster",
+      "cpCost": 50,
+      "pbu": "B/Physical\nB+/Physical",
+      "aoe": "Area - Circle (M)\nArea - Circle (M)",
+      "effects": "Delay (S). [Obtained at level 8]\nDelay (M); BACK Positional - Increased damage. [Obtained at level 54]"
+    },
+    {
+      "type": "C",
+      "name": "Coin Bullet",
+      "cpCost": 20,
+      "pbu": "D+/Magic",
+      "aoe": "Area - Cone-Line",
+      "effects": "Attack Down; HATE Up."
+    },
+    {
+      "type": "C",
+      "name": "Rending Azure Fist",
+      "cpCost": 70,
+      "pbu": "A+/Physical",
       "aoe": "Area - Line (M)",
-      "effects": "Delay +2, Burn 30%\nRank 2 Increases Delay by +2 and Burn chance to 50%. [Obtained at level 113]"
+      "effects": "Inflicts Slow on enemies. [Obtained at level 41]"
     },
     {
       "type": "C",
-      "name": "Beat Down",
-      "cpCost": 80,
-      "pbu": "S/SS/D",
-      "aoe": "Area - Set (L)",
-      "effects": "Faint 50%"
+      "name": "Howling Spirit",
+      "cpCost": 40,
+      "pbu": "N/A",
+      "aoe": "Self",
+      "effects": "Spirit; HP Recovery when acting. [Obtained at level 18]"
     },
     {
       "type": "C",
-      "name": "Wild Rage",
+      "name": "Take the Grendel",
+      "cpCost": 200,
+      "pbu": "N/A",
+      "aoe": "Self",
+      "effects": "Grendel Transformation; 3 Turns of CP+100. [Only usable in specific battles.]"
+    },
+    {
+      "type": "S",
+      "name": "Vandalize Raid",
+      "cpCost": 100,
+      "pbu": "S+/Physical",
+      "aoe": "Area - Circle (LL)",
+      "effects": "N/A"
+    }
+  ],
+  "VAN - GRENDEL": [
+    {
+      "type": "C",
+      "name": "Quick Claw",
       "cpCost": 0,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "HP-40%, 4 Turns Str (L) CP+80"
-    },
-    {
-      "type": "S",
-      "name": "Dragon Fall\n→Dragon Fall II",
-      "cpCost": 100,
-      "pbu": "4S+/C\n5S/C",
-      "aoe": "All",
-      "effects": "Rank 2 Adds 4 Turns of Str Down (M). [Obtained at level 138]"
-    }
-  ],
-  "ALISA": [
-    {
-      "type": "C",
-      "name": "Rosetta Arrow\n→Rosetta Arrow II",
-      "cpCost": 30,
-      "pbu": "A/C+/B\nA+/B/B+",
-      "aoe": "Area - Line (M+)",
-      "effects": "Impede (100% chance), Burn (25% chance), Base Critical Chance (25%)\nRank 2 increases power, and Base Critical Chance to 30%. [Obtained at level 122]"
-    },
-    {
-      "type": "C",
-      "name": "Molten Storm II",
-      "cpCost": 60,
-      "pbu": "B/B+/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "Seal+Burn (50% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Heavenly Gift II\n→Heavenly Gift III",
-      "cpCost": 50,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (L+)",
-      "effects": "3 Turns Insight, CP+25, HP+20%\nRank 2 Increases CP+30, HP25% Recovery. [Obtained through Door of Trials]"
-    },
-    {
-      "type": "C",
-      "name": "Orbal Gear Summon II",
-      "cpCost": "EP 200",
-      "pbu": "SS/B/D",
-      "aoe": "All",
-      "effects": "Once per battle. 100% Seal"
-    },
-    {
-      "type": "S",
-      "name": "Gabriel Arrow III",
-      "cpCost": 100,
-      "pbu": "4S/D",
-      "aoe": "All",
-      "effects": "Seal 120%, [Obtained at level 116]"
-    }
-  ],
-  "ALTINA": [
-    {
-      "type": "C",
-      "name": "Detector Δ",
-      "cpCost": 20,
-      "pbu": "N/A",
+      "pbu": "C/Physical",
       "aoe": "Single",
-      "effects": "Analyze, 4 Turns Balance Down 100%, 4 Turns STR+SPD Down (M) "
+      "effects": "Inflicts Defense Down."
     },
     {
       "type": "C",
-      "name": "Brionac II\n→Brionac III",
+      "name": "Heavy Spike",
+      "cpCost": 10,
+      "pbu": "C+/Physical",
+      "aoe": "Single",
+      "effects": "Inflicts Magic Attack Down."
+    },
+    {
+      "type": "C",
+      "name": "Savage Hands",
+      "cpCost": 20,
+      "pbu": "B/Physical",
+      "aoe": "Area - Cone (S)",
+      "effects": "HP Absorption."
+    },
+    {
+      "type": "C",
+      "name": "Mortal Raid",
       "cpCost": 30,
-      "pbu": "B/D/B\nB+/D/B+",
-      "aoe": "Area - Line (M+)",
-      "effects": "4 Turns DEF+ADF Down (S)\nObtained at level 120"
-    },
-    {
-      "type": "C",
-      "name": "Argem Heal\n→Argem Heal II",
-      "cpCost": 40,
-      "pbu": "N/A",
+      "pbu": "A/Physical",
       "aoe": "Area - Circle (M)",
-      "effects": "HP Restore (30%), CP+30, 4 Turns DEF Up (S)\nRank 2 increases DEF buff to (M) [Obtained at level 134]"
+      "effects": "Inflicts Magic Defense Down. [Obtained through Story progression.]"
     },
     {
       "type": "C",
-      "name": "Fragarach II",
-      "cpCost": 60,
-      "pbu": "S/SS/D",
-      "aoe": "Area - Circle (M)",
-      "effects": "Delay+4"
+      "name": "Destruction Fist",
+      "cpCost": 50,
+      "pbu": "S/Physical",
+      "aoe": "Single-Line",
+      "effects": "Inflicts Slow. [Obtained through Story progression.]"
     },
     {
       "type": "C",
-      "name": "Ebon Shade EX ",
-      "cpCost": 60,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "Physical Reflect, 2 Turns Stealth [Obtained at level 105]"
+      "name": "Howling Loa",
+      "cpCost": "100 EP",
+      "pbu": "B+/Magic",
+      "aoe": "Area - Cone (L)",
+      "effects": "Impede; HATE Up. [Obtained through Story progression.]"
+    },
+    {
+      "type": "C",
+      "name": "Limited Blaster",
+      "cpCost": "160 EP",
+      "pbu": "A+/Magic",
+      "aoe": "Area - Line (M)",
+      "effects": "Inflicts Attack Down. [Obtained through Story progression.]"
     },
     {
       "type": "S",
-      "name": "Arcadias Gear\n→Arcadias Gear II",
+      "name": "Regal Strike",
       "cpCost": 100,
-      "pbu": "SS+/C\n4S/C",
-      "aoe": "Area - Line (LL)",
-      "effects": "Rank 2 adds 20% Critical [Obtained at level 102]"
-    },
-    {
-      "type": "S",
-      "name": "Solaris Bringer\n→Solaris Bringer II",
-      "cpCost": 100,
-      "pbu": "SSS+/C\n4S+/C",
-      "aoe": "All",
-      "effects": "Critical+20%\nRank 2 increases Critical chance to 25% [Obtained from Door of Trials]"
+      "pbu": "SS/Physical",
+      "aoe": "Area - Circle (LL)",
+      "effects": "Obtained through Story progression."
     }
   ],
-  "ARIOS": [
+  "ELAINE": [
     {
       "type": "C",
-      "name": "Double Arcane Gale",
+      "name": "Lohengrin",
       "cpCost": 40,
-      "pbu": "Ex2/D/C",
-      "aoe": "Area - Line (LL)",
-      "effects": "Impede (100% chance), Confuse (60% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Wind God's Wave\n→Zenith Wind God's Wave",
-      "cpCost": 80,
-      "pbu": "SS/S/D\nSS+/S+/D ",
+      "pbu": "B/Physical",
       "aoe": "Area - Circle (M) ",
-      "effects": "Seal+Faint (40% chance) \nRank 2 increases chance of Seal or Faint to 60% [Obtained at level 128]"
+      "effects": "Delay (S); Quick to Self"
     },
     {
       "type": "C",
-      "name": "Qinggong",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "3 Turns Insight, 4 Turns STR+SPD Up (M)"
+      "name": "Kaleido Fencer",
+      "cpCost": 70,
+      "pbu": "A+/Physical",
+      "aoe": "Area - Circle (S)",
+      "effects": "Delay (M); Attack Up to Self"
     },
     {
-      "type": "S",
-      "name": "Second Slash: Storm God's Heavenly Pierce\n→Second Slash: Storm God's Heavenly Pierce EX",
-      "cpCost": 100,
-      "pbu": "4S+/D\n5S/D",
-      "aoe": "All",
-      "effects": "Seal (150% chance)\nRank 2 increases chance of Seal to 200% [Obtained from Door of Trials]"
-    }
-  ],
-  "ASH": [
-    {
       "type": "C",
-      "name": "Rumbling Smash II\n→Rumbling Smash III",
+      "name": "Silvery Cross",
       "cpCost": 30,
-      "pbu": "B/B/D\nB+/B/D",
-      "aoe": "Area - Cricle (M)",
-      "effects": "Impede (100% chance), Faint (40% chance)\nRank 3 increases Faint chance to 60% [Obtained at level 103]"
-    },
-    {
-      "type": "C",
-      "name": "Reaper's Whirlwind II",
-      "cpCost": 80,
-      "pbu": "A/D/B",
-      "aoe": "Area - Circle (L)",
-      "effects": "Deathblow+Nightmare (60% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Unbound Rage",
-      "cpCost": "10",
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "2 Turns STR Up (L), CP+50"
-    },
-    {
-      "type": "C",
-      "name": "Void Breaker EX",
-      "cpCost": 60,
-      "pbu": "S+/SS/SS",
-      "aoe": "Single",
-      "effects": "4 Turns DEF Down (L) [Obtained at level 106]"
-    },
-    {
-      "type": "C",
-      "name": "Despair Throw\n→Despair Throw II",
-      "cpCost": 40,
-      "pbu": "B+/D/D\nA/D/D",
-      "aoe": "Area - Line (M+)",
-      "effects": "1 Turn Balance Down 50%\nRank 2 increases Balance Down to 100% [Obtained from Door of Trials]"
-    },
-    {
-      "type": "S",
-      "name": "Belial Raid\n→Belial Raid II",
-      "cpCost": 100,
-      "pbu": "SS+/D\n4S+/C",
-      "aoe": "Area - Circle (LL)",
-      "effects": "Deathblow+Confuse (30% chance)\nRank 2 increases Deathblow+Confuse chance to 60% [Obtained at level 108]"
-    },
-    {
-      "type": "S",
-      "name": "Sinner's Revelry\n→Sinner's Revelry II",
-      "cpCost": 100,
-      "pbu": "4S+/D\n5S+/C",
-      "aoe": "Single",
-      "effects": "4 Turns all Stat Down (S)\nRank 2 increases debuffs to (M) [Obtained at level 136]"
-    }
-  ],
-  "C": [
-    {
-      "type": "C",
-      "name": "Soul Eater\n→Soul Eater II",
-      "cpCost": 30,
-      "pbu": "C/C/C\nC+/C+/C+",
-      "aoe": "Area - Circle (S+)",
-      "effects": "Impede (100% chance). Depending on damage, restores all allies HP+CP.\nObtained at level 120"
-    },
-    {
-      "type": "C",
-      "name": "Renegade Edge",
-      "cpCost": 60,
-      "pbu": "B+/A+/D",
-      "aoe": "Area - Circle (M+)",
-      "effects": "Mute+Blind (80% chance), Delay+4"
-    },
-    {
-      "type": "C",
-      "name": "Strange Sword Zewar",
-      "cpCost": 80,
-      "pbu": "S/D/S",
-      "aoe": "Area - Circle (M+)",
-      "effects": "3 Turns Sword Flash, SPD Up (L)"
-    },
-    {
-      "type": "C",
-      "name": "Noblesse Rune\n→Noblesse Rune II",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "3 Turns STR+ATS Up (M), removes all statuses and Stat Down, BP+1 [Obtained at level 111]\nRank 2 increases buffs to (L) [Obtained at level 136]"
-    },
-    {
-      "type": "S",
-      "name": "Blutgang Rain\n→Blutgang Rain II",
-      "cpCost": 100,
-      "pbu": "4S+/S\n5S/S",
-      "aoe": "All",
-      "effects": "N/A\nObtained at level 146"
-    }
-  ],
-  "CELINE": [
-    {
-      "type": "C",
-      "name": "Nine Lives\n→Nine Lives II",
-      "cpCost": 100,
-      "pbu": "N/A",
-      "aoe": "All Allies",
-      "effects": "Removes all Statuses/Stat Down, +3 BP\nRank 2 increases BP by 1, and adds CP+20 [Obtained from Door of Trials] "
-    },
-    {
-      "type": "C",
-      "name": "Crimson Tail",
-      "cpCost": 100,
-      "pbu": "SSS/S/D",
-      "aoe": "Area - Circle (LL)",
-      "effects": "Burn (150% chance)"
-    }
-  ],
-  "CLAIRE": [
-    {
-      "type": "C",
-      "name": "Mortal Mirage\n→Mortal Mirage II",
-      "cpCost": 30,
-      "pbu": "B/D/A\nB+/D/S",
-      "aoe": "Area - Line (S+)",
-      "effects": "Delay+2, Deathblow (20% chance)\nRank 2 increases Delay to 4, Deathblow chance to 40% [Obtained at level 114]"
-    },
-    {
-      "type": "C",
-      "name": "Frigid Rain",
-      "cpCost": 60,
-      "pbu": "B/A/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "Freeze (60% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Concentration",
-      "cpCost": 30,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "3 Turns Insight, 4 Turns STR+ATS Up (M)"
-    },
-    {
-      "type": "S",
-      "name": "Kaleido Force\n→Kaleido Force II",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/C",
-      "aoe": "All ",
-      "effects": "N/A\nObtained at level 135"
-    }
-  ],
-  "CROW": [
-    {
-      "type": "C",
-      "name": "Chronos Bullet",
-      "cpCost": 30,
-      "pbu": "B/C/D",
+      "pbu": "D+/Magic",
       "aoe": "Area - Line (M)",
-      "effects": "Confuse+Faint (40% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Quick Burst II",
-      "cpCost": 40,
-      "pbu": "C/D/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "Impede (100% chance), 4 Turns SPD Down (L)"
-    },
-    {
-      "type": "C",
-      "name": "Criminal Edge\n→Criminal Edge II",
-      "cpCost": 60,
-      "pbu": "S/A/D\nS+/A+/D",
-      "aoe": "Area - Circle (S+)",
-      "effects": "Delay+2, Critical+15%\nRank 2 increases Delay to 4, Critical chance to 20% [Obtained at level 121]"
-    },
-    {
-      "type": "C",
-      "name": "Eye of Balor",
-      "cpCost": 80,
-      "pbu": "A/D/B",
-      "aoe": "Area - Circle (L)",
-      "effects": "Charm+Nightmare+Deathblow (20% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Destiny Blue\n→Destiny Blue II",
-      "cpCost": 100,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "3 Turns Insight, 6 Turns STR+ATS+SPD Up (L)\nRank 2 increases buffs by 1 turn [Obtained at level 129]"
+      "effects": "Inflicts Seal+Mute; SIDE Positional - Increased damage."
     },
     {
       "type": "S",
-      "name": "Vorpal Slayer\n→Vorpal Slayer II",
+      "name": "Knights of Asteria",
       "cpCost": 100,
-      "pbu": "4S/C\n5S/A",
-      "aoe": "All",
-      "effects": "Seal (100% chance)\nRank 2 increases Seal chance to 120% [Obtained at level 144]"
-    }
-  ],
-  "DUVALIE": [
-    {
-      "type": "C",
-      "name": "Flame Sword",
-      "cpCost": 40,
-      "pbu": "D+/C/D+",
-      "aoe": "Area - Circle (L)",
-      "effects": "Burn (50% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Ice Sword",
-      "cpCost": 40,
-      "pbu": "D+/C/D+",
-      "aoe": "Area - Circle (L)",
-      "effects": "Freeze (50% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Lightning Sword",
-      "cpCost": 40,
-      "pbu": "D+/C/D+",
-      "aoe": "Area - Circle (L)",
-      "effects": "Seal (50% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Godspeed Slash\n→Godspeed Slash EX",
-      "cpCost": 60,
-      "pbu": "C/A/D\nB/A/D",
-      "aoe": "Area - Line (S+)",
-      "effects": "Impede (100% chance), Delay+6\nRank 2 increases added Delay to 8 [Obtained at level 123]"
-    },
-    {
-      "type": "C",
-      "name": "Sword Emperor Formation\n→Sword Emperor Formation EX",
-      "cpCost": 80,
-      "pbu": "S+/D/B+\nSS/D/B+",
-      "aoe": "Single Enemy",
-      "effects": "Confuse+Critical (40% chance)\nRank 2 increases chance of Confuse or Critical to 50% [Obtained from Door of Trials]"
-    },
-    {
-      "type": "S",
-      "name": "Prism Calibur\n→Prism Calibur II",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/C",
-      "aoe": "All",
-      "effects": "4 Turns SPD Down (L)\nRank 2 only increases Power/Break. [Obtained at level 133]"
-    }
-  ],
-  "ELIE": [
-    {
-      "type": "C",
-      "name": "Mirage Swan\n→Mirage Swan II",
-      "cpCost": 30,
-      "pbu": "C/C/C+",
-      "aoe": "Area - Circle (M)",
-      "effects": "Impede (100% chance), 4 Turns SPD Down (M)\nRank 2 Increases Power. [Obtained at level 173]"
-    },
-    {
-      "type": "C",
-      "name": "Holy Bullet\n→Holy Bullet II",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Party - Circle (L+)",
-      "effects": "25% HP Recovery, CP+25\nRank 2 Increaes HP/CP Recovery to 30%/30. [Obtained at level 133]"
-    },
-    {
-      "type": "C",
-      "name": "Divine Crusade",
-      "cpCost": 80,
-      "pbu": "S+/C/D",
-      "aoe": "Area - Line (M)",
-      "effects": "2 Turns \"ADEF DOWN\". [Obtained at level 107]"
-    },
-    {
-      "type": "S",
-      "name": "Aura Rain\n→Celestia Rain",
-      "cpCost": 100,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (LL+)\nRank 2 Increases to ALL",
-      "effects": "Cures all status effects, revives K/O'd allies, and restores all health. Additional 20% EP recovery at 200CP\nRank 2 increases increases EP recovery to 30% at 200CP. [Obtained through Door of Trials]"
-    }
-  ],
-  "ELISE": [
-    {
-      "type": "C",
-      "name": "Swallow Tail\n→Swallow Tail II",
-      "cpCost": 20,
-      "pbu": "C/D+/D+\nC+/C/C",
-      "aoe": "Area - Line (S+)",
-      "effects": "Impede (100% chance)\nObtained at level 125"
-    },
-    {
-      "type": "C",
-      "name": "Holy Squall",
-      "cpCost": 50,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (L)",
-      "effects": "Cures all status ailments+Stat Down, HP 50% Recovery"
-    },
-    {
-      "type": "C",
-      "name": "Serenity",
-      "cpCost": 30,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "4 Turns STR+ATS+SPD Up (S)"
-    },
-    {
-      "type": "S",
-      "name": "Secret Sword: Phoenix Flower\n→True Phoenix Flower",
-      "cpCost": 100,
-      "pbu": "SSS+/D\n4S/D",
-      "aoe": "All",
-      "effects": "Confuse (100% chance)\nIncreases Confuse chance to 120% [Obtained from Door of Trials]"
-    }
-  ],
-  "ELLIOT": [
-    {
-      "type": "C",
-      "name": "Detector α",
-      "cpCost": 20,
-      "pbu": "N/A",
-      "aoe": "Single Enemy",
-      "effects": "Analyze, 4 Turns Balance Down (100%), 4 Turns STR+ATS Down (M)"
-    },
-    {
-      "type": "C",
-      "name": "Holy Song II\n→Holy Song III",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (LL+)",
-      "effects": "HP 35% Recovery, cures all status ailments and Stat Down\nRank 3 increases HP Recovery to 40% [Obtained at level 123]"
-    },
-    {
-      "type": "C",
-      "name": "Blue Oratorio\n→Blue Oratorio II",
-      "cpCost": 30,
-      "pbu": "C/S\nC+/S+",
-      "aoe": "Area - Circle (M)",
-      "effects": "Sleep+Mute (80% chance)\nRank 2 increases Sleep+Mute chance to 100% [Obtained at level 106] "
-    },
-    {
-      "type": "S",
-      "name": "Remedy Fantasia II\n→Remedy Fantasia III",
-      "cpCost": 100,
-      "pbu": "N/A",
-      "aoe": "All Allies",
-      "effects": "Revives to Max HP, if CP 200, 2 Turns HP 50% Recovery, 3 Turns CP+30\nRank 3 increases CP Recovery to 40 [Obtained at level 133]"
-    }
-  ],
-  "EMMA": [
-    {
-      "type": "C",
-      "name": "Detector β",
-      "cpCost": 20,
-      "pbu": "N/A",
-      "aoe": "Single",
-      "effects": "Analyze, 4 Turns Balance Down (100%), 4 Turns DEF+ADF Down (S)"
-    },
-    {
-      "type": "C",
-      "name": "Serene Blessing II\n→Crescent Blessing",
-      "cpCost": 30,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (M)",
-      "effects": "Cures all Statuses+Stat Down+K.O, HP 20% Recovery, CP+40\nIncreases HP Recovery to 25%, CP increase to 50, adds Magic Reflect [Obtained from Episode]"
-    },
-    {
-      "type": "C",
-      "name": "Eclipse Edge II\n→Eclipse Edge III",
-      "cpCost": 40,
-      "pbu": "A/D+/A\nA+/D+/A",
-      "aoe": "Area - Line (M+)",
-      "effects": "4 Turns ATS Down (L)\nObtained at level 113"
-    },
-    {
-      "type": "C",
-      "name": "Vorpal Flare II",
-      "cpCost": 80,
-      "pbu": "S+/S",
-      "aoe": "Area - Circle (L)",
-      "effects": "Burn+Confuse (40% chance)"
-    },
-    {
-      "type": "S",
-      "name": "Palace of Eregion II\n→Palace of Eregion III",
-      "cpCost": 100,
-      "pbu": "N/A",
-      "aoe": "Allies",
-      "effects": "Perfect Reflect (2 if CP 200), 2 Turns HP 10% Recovery\nRank 3 increases HP Recovery to 30% [Obtained from Door of Trials]"
-    }
-  ],
-  "ESTELLE": [
-    {
-      "type": "C",
-      "name": "Whirlwind\n→Zenith Whirlwind ",
-      "cpCost": 20,
-      "pbu": "D/D/A\nD+/D/A",
-      "aoe": "Area - Circle - L",
-      "effects": "Knockback, 4 Turns Def Down (S)\nRank 2 Increases Def Down to (M) [Obtained at level 128]"
-    },
-    {
-      "type": "C",
-      "name": "Sakura Barrage",
-      "cpCost": 40,
-      "pbu": "S+/SS/C",
-      "aoe": "Single",
-      "effects": "Faint (70%)"
-    },
-    {
-      "type": "S",
-      "name": "Wheel of Time\n→Zenith Wheel of Time",
-      "cpCost": 100,
-      "pbu": "5S/S\n5S+/S",
-      "aoe": "Single",
-      "effects": "50% Base Critical Chance\nRank 2 Increases power. [Obtained through Door of Trials]"
+      "pbu": "SS/Physical",
+      "aoe": "Area - Circle (LL)",
+      "effects": "N/A"
     }
   ],
   "FIE": [
     {
       "type": "C",
-      "name": "Sweep II",
+      "name": "Clearance",
       "cpCost": 30,
-      "pbu": "C/B/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "Impede (100% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Cipher Edge II\n→Cipher Edge III",
-      "cpCost": 40,
-      "pbu": "A/D+/A+\nA+/D+/S",
-      "aoe": "Area - Line (M+)",
-      "effects": "Deathblow (30% chance)\nRank 3 increases Deathblow chance to 50% [Obtained at level 119] "
-    },
-    {
-      "type": "C",
-      "name": "Tri Cyclone II",
-      "cpCost": 60,
-      "pbu": "S+/S+/D",
-      "aoe": "Area - Circle (S)",
-      "effects": "Seal (60% chance), Delay+6"
-    },
-    {
-      "type": "C",
-      "name": "Concealing Wind II\n→Concealing Wind III",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "2 Turns Stealth, 4 Turns STR/SPD Up (M)\nRank 3 increases buffs by 1 turn [Obtained at level 128]"
-    },
-    {
-      "type": "S",
-      "name": "Lethal Crusade II\n→Lethal Crusade III",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/C",
-      "aoe": "All",
-      "effects": "Deathblow (50% chance)\nRank 3 increases Deathblow chance to 70% [Obtained at level 141] "
-    }
-  ],
-  "GAIUS": [
-    {
-      "type": "C",
-      "name": "Gale Storm II\n→Gale Storm III",
-      "cpCost": 30,
-      "pbu": "D+/B/C\nC/B/C",
-      "aoe": "Area - Line (L+)",
-      "effects": "1 Turn Balance Down 100%\nRank 3 increases Balance Down by 1 turn [Obtained at level 114]"
-    },
-    {
-      "type": "C",
-      "name": "Turbulence II\n→Turbulence III",
-      "cpCost": 40,
-      "pbu": "B/C/D\nB+/C/D",
-      "aoe": "Area - Circle (LL)",
-      "effects": "Impede (100% chance, Blind (60% chance)\nRank 3 increases Blind chance to 100% [Obtained at level 125] "
-    },
-    {
-      "type": "C",
-      "name": "True Lightning Fang",
-      "cpCost": 80,
-      "pbu": "SS/S/D",
+      "pbu": "B/Physical",
       "aoe": "Area - Circle (M)",
-      "effects": "Delay+4, Seal (60% chance)"
+      "effects": "Impede"
     },
     {
       "type": "C",
-      "name": "True Golden Roar",
-      "cpCost": 0,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "HP-40%, 4 Turns STR+DEF Up (M) CP+80"
-    },
-    {
-      "type": "S",
-      "name": "True Howling Heavens\r\n→Zenith Howling Heavens",
-      "cpCost": 100,
-      "pbu": "4S+/D 5S/D",
-      "aoe": "All",
-      "effects": "Absolute Delay+8\r\nIncreases Absolute Delay to 10 [Obtained from Door of Trials]"
-    }
-  ],
-  "JOSHUA": [
-    {
-      "type": "C",
-      "name": "Shadow Fang\n→ Zenith Shadow Fang",
+      "name": "Mirage Raid",
       "cpCost": 40,
-      "pbu": "Ex2/B/D\nDx2/A/D",
-      "aoe": "Area - Line (S+)",
-      "effects": "Impede (100%), Delay +2\nRank 2 Increases Delay to +4 [Obtained at level 131]"
-    },
-    {
-      "type": "C",
-      "name": "Black Fang\n→Zenith Black Fang",
-      "cpCost": 80,
-      "pbu": "S/D/B+\nS+/D/A",
-      "aoe": "Area - Circle (L)",
-      "effects": "2 Turns Stealth\nRank 2 Increases power. [Obtained through Door of Trials]"
-    },
-    {
-      "type": "S",
-      "name": "Phantom Raid\n→Zenith Phantom Raid",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/D",
-      "aoe": "All",
-      "effects": "Rank 2 Increase Power. Adds Blind (150%) [Obtained at level 133]"
-    }
-  ],
-  "JUNA": [
-    {
-      "type": "C",
-      "name": "Cross Break II\n→Cross Break III",
-      "cpCost": 30,
-      "pbu": "B/S+/D+\nB+/S+/D+",
-      "aoe": "Area - Circle (M)",
-      "effects": "Impede (100% chance), Faint (40% chance)\nRank 3 increases Faint chance to 60% [Obtained at level 132]"
-    },
-    {
-      "type": "C",
-      "name": "Gemini Blast II",
-      "cpCost": 40,
-      "pbu": "D+/D/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "4 Turns DEF/SPD Down (M)"
-    },
-    {
-      "type": "C",
-      "name": "Brave Smash",
-      "cpCost": 60,
-      "pbu": "S/C/A",
-      "aoe": "Area - Line (M+)",
-      "effects": "Seal (60% chance) [Obtained at level 101]"
-    },
-    {
-      "type": "C",
-      "name": "Quick Star EX",
-      "cpCost": 80,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (M+)",
-      "effects": "AT Advance, 3 Turns SPD Up (M) (Juna not affected) [Obtained at level 119]"
-    },
-    {
-      "type": "C",
-      "name": "Crimson Heart",
-      "cpCost": 30,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "4 Turns STR/DEF Up (M), BP+1"
-    },
-    {
-      "type": "S",
-      "name": "Excel Breaker\n→Excel Breaker II",
-      "cpCost": 100,
-      "pbu": "SS+/B\nSSS+/A",
-      "aoe": "Area - Circle (LL)",
-      "effects": "Rank 2 obtained at level 107"
-    },
-    {
-      "type": "S",
-      "name": "Valiant Charge\n→Valiant Charge II",
-      "cpCost": 100,
-      "pbu": "SSS/A\n4S/A",
-      "aoe": "All",
-      "effects": "Rank 2 obtained from Door of Trials"
-    }
-  ],
-  "JUSIS": [
-    {
-      "type": "C",
-      "name": "Arc Slicer",
-      "cpCost": 40,
-      "pbu": "A/S/D",
-      "aoe": "Area - Circle (M)",
-      "effects": "3 Turns ATS+ADF Down (L)"
-    },
-    {
-      "type": "C",
-      "name": "Treasure Sword II",
-      "cpCost": 60,
-      "pbu": "S/C/A+",
-      "aoe": "Area - Circle (M)",
-      "effects": "Impede (100% chance), Delay+4, Freeze (50% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Platinum Shield II\n→Platinum Shield III",
-      "cpCost": 50,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (L+)",
-      "effects": "Perfect Guard, 2 Turns HP 20% Recovery\nRank 3 increases HP Recovery to 30% [Obtained from Door of Trials]"
-    },
-    {
-      "type": "C",
-      "name": "Holy Sword Elvars ",
-      "cpCost": 40,
-      "pbu": "A/D/SS",
-      "aoe": "Area - Circle (M)",
-      "effects": "3 Turns Sword Flash, STR+ATS Up (S) [Obtained at level 107]"
-    },
-    {
-      "type": "S",
-      "name": "Aeolus Saber II\n→Aeolus Saber III",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/C",
-      "aoe": "Area - Circle (LL+)",
-      "effects": "Seal (100% chance)\nRank 3 increases Seal chance to 120% [Obtained at level 124]"
-    }
-  ],
-  "KURT": [
-    {
-      "type": "C",
-      "name": "Rain Slash II\n→Rain Slash III",
-      "cpCost": 30,
-      "pbu": "B+/S/C+\nA/S/C+",
-      "aoe": "Area - Circle (S+)",
-      "effects": "Delay+3\nRank 3 increases Delay to 5 [Obtained at level 111]"
-    },
-    {
-      "type": "C",
-      "name": "True Twilit Blade\n→Zenith Twilit Blade",
-      "cpCost": 40,
-      "pbu": "Dx2/D/D\nD+x2/D/D",
+      "pbu": "B+/Magic",
       "aoe": "Area - Line (S)",
-      "effects": "Impede (100% chance), Blind (100% chance)\nIncreases Blind chance to 120% [Obtained at level 175]"
+      "effects": "Stealth and Quick to Self."
     },
     {
       "type": "C",
-      "name": "Blade Dance",
-      "cpCost": 30,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "3 Turns Sword Flash, STR+SPD Up (M) [Obtained in a Story event on 3/15 (Rean Route Ch1)]"
-    },
-    {
-      "type": "C",
-      "name": "Tempest Edge II",
+      "name": "Instant Flash",
       "cpCost": 60,
-      "pbu": "S/C/A",
-      "aoe": "Area - Circle (M)",
-      "effects": "Seal+Mute (100% chance)"
+      "pbu": "A/Physical",
+      "aoe": "Area - Circle (S)",
+      "effects": "Inflicts Seal; BACK Positional - Increased damage."
     },
     {
+      "type": "S",
+      "name": "Azul ",
+      "cpCost": 100,
+      "pbu": "S+/Physical",
+      "aoe": "All",
+      "effects": "N/A"
+    }
+  ],
+  "KINCAID": [
+    {
       "type": "C",
-      "name": "Karmic Sword Dance\n→True Karmic Sword Dance",
-      "cpCost": 90,
-      "pbu": "S+/A/B\nSS/A/B+",
+      "name": "Ark Dominator",
+      "cpCost": 40,
+      "pbu": "B/Magic",
       "aoe": "Single",
-      "effects": "Critical+30%\nIncreases Critical chance to 35% [Obtained at level 133]"
+      "effects": "Inflicts All Stats Down."
     },
     {
-      "type": "S",
-      "name": "Ragna Strike\n→Ragna Strike II",
-      "cpCost": 100,
-      "pbu": "SS+/D\n4S+/D",
-      "aoe": "Area - Circle (LL)",
-      "effects": "Seal (50% chance)\nRank 2 increases Seal chance to 100% [Obtained at level 101]"
+      "type": "C",
+      "name": "Exceed Rain",
+      "cpCost": 70,
+      "pbu": "A/Physical",
+      "aoe": "Area - Cone (L)",
+      "effects": "Impede; Reduces enemy's Ailment Resistance."
     },
     {
-      "type": "S",
-      "name": "Gemini Judgement\n→True Gemini Judgement",
-      "cpCost": 100,
-      "pbu": "SSS+/D\n4S+/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "Adds Seal (120% chance) when upgraded [Obtained from Door of Trials]"
+      "type": "C",
+      "name": "Dualizer",
+      "cpCost": 40,
+      "pbu": "N/A",
+      "aoe": "Support: Single",
+      "effects": "Acceleration/Zero Delay; Attack+Magic Attack Up"
     }
   ],
-  "LAPIS": [
+  "SHIZUNA": [
     {
       "type": "C",
-      "name": "Emerode Eye",
+      "name": "Double Shadow",
       "cpCost": 20,
-      "pbu": "N/A",
-      "aoe": "Single Enemy",
-      "effects": "Analyze, 4 Turn Balance Down 100%, 4 Turns DEF+ADF+MOV Down (S)"
-    },
-    {
-      "type": "C",
-      "name": "Adamantine Ripper\n→Adamantine Ripper II",
-      "cpCost": 50,
-      "pbu": "A+/A/D\nS/A+/D+",
+      "pbu": "C/Physical",
       "aoe": "Area - Line (M)",
-      "effects": "4 Turns STR+ATS Down (S)\nObtained from Door of Trials"
+      "effects": "Removes enemy's buffs; Delay (M); Guaranteed to hit the enemy."
     },
     {
       "type": "C",
-      "name": "Edel Hearts\n→Edel Hearts II",
-      "cpCost": "200 EP",
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "4 Turns STR/ATS/DEF Up (S), HP 30% Recovery, CP+30 [Obtained at level 106]\nRank 2 increases buffs to (M), 40% HP, 40 CP. [Obtained at level 119] This craft requires casting."
-    },
-    {
-      "type": "C",
-      "name": "Grimoire Ark",
+      "name": "Snowstorm Helix",
       "cpCost": 50,
-      "pbu": "A/D/A",
-      "aoe": "Area - Circle (M+)",
-      "effects": "Faint+Confuse+Nightmare (20% chance) [Obtained at level 112]"
-    },
-    {
-      "type": "S",
-      "name": "Lapis In The Mirror\n→Lapis In The Mirror II",
-      "cpCost": 100,
-      "pbu": "4S/C\n4S+/C",
-      "aoe": "All",
-      "effects": "Faint (100% chance)\nRank 2 increases Faint chance to 120%. [Obtained at level 145]"
-    }
-  ],
-  "LAURA": [
-    {
-      "type": "C",
-      "name": "True Azure Fissure\n→Zenith Azure Fissure",
-      "cpCost": 40,
-      "pbu": "B+/D/S\nA/D/S+",
-      "aoe": "Area - Line (M+)",
-      "effects": "4 Turns SPD+MOV Down (M)\nIncreases debuffs to (L) [Obtained at level 120]"
-    },
-    {
-      "type": "C",
-      "name": "True Radiant Spin\n→Zenith Radiant Spin",
-      "cpCost": 80,
-      "pbu": "A+/B+/C\nS/A/C",
-      "aoe": "Area - Circle (L)",
-      "effects": "Pulls enemies in, Faint (50% chance)\nIncreases Faint chance to 80% [Obtained at level 145]"
-    },
-    {
-      "type": "C",
-      "name": "True Lion Rush",
-      "cpCost": 60,
-      "pbu": "S+/S+/D",
+      "pbu": "B+/Physical",
       "aoe": "Area - Circle (S)",
-      "effects": "4 Turns STR+DEF Down (M)"
+      "effects": "Inflicts Freeze; Guaranteed to hit the enemy."
     },
     {
       "type": "C",
-      "name": "True Radiant Wings",
-      "cpCost": 30,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "3 Turns Sword Flash, 4 Turns STR Up (L), HP Recovery+10%"
-    },
-    {
-      "type": "S",
-      "name": "True Radiant Phoenix Blade\n→Zenith Radiant Phoenix Blade",
-      "cpCost": 100,
-      "pbu": "4S/D\n5S/D",
-      "aoe": "All",
-      "effects": "Faint (100% chance)\nIncreases Faint chance to 120% [Obtained at level 127]"
-    }
-  ],
-  "LECHTER": [
-    {
-      "type": "C",
-      "name": "Laevatein\n→Laevatein II",
-      "cpCost": 40,
-      "pbu": "A/B/A\nA+/B/A+",
-      "aoe": "Area - Circle (M)",
-      "effects": "Burn+Nightmare (40% chance)\nRank 2 increases power and Burn+Nightmare to 60%. [Obtained at level 108]"
-    },
-    {
-      "type": "C",
-      "name": "Spell Card",
-      "cpCost": 20,
-      "pbu": "N/A",
-      "aoe": "All (Enemies+Allies)",
-      "effects": "Random effect (negative or beneficial) on enemy or ally"
-    },
-    {
-      "type": "C",
-      "name": "Heat Up",
-      "cpCost": 10,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "3 Turns STR+ATS Up (M), CP+40"
-    },
-    {
-      "type": "S",
-      "name": "Knights of Rubrum \n→Knights of Rubrum II",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/D",
-      "aoe": "All",
-      "effects": "Random status ailment (100% chance)\nRank 2 increases status ailment chance to 150%. [Obtained at level 136]"
-    }
-  ],
-  "LLOYD": [
-    {
-      "type": "C",
-      "name": "Brave Smash\n →{C}Brave Smash II\n →→{C}Brave Smash III",
-      "cpCost": 30,
-      "pbu": "C/D/B\nC+/D/B\nB/D/B",
-      "aoe": "Area - Line (S+)",
-      "effects": "Seal+Faint (30% chance)\nRank 2 increases power and Seal+Faint chance to 40%. [Obtained at level 100]\nRank 3 increases power and Seal+Faint chance to 50%. [Obtained at level 175]"
-    },
-    {
-      "type": "C",
-      "name": "Burning Heart\n →{C}Burning Heart II\n →→{C}Burning Heart III",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "Cures all Statuses+Stat Down, 4 Turns STR/DEF/SPD Up (M), BP+1\nRank 2 adds 2 turns HP 15% recovery\nRank 3 adds 3 turns HP 15% recovery"
-    },
-    {
-      "type": "C",
-      "name": "Zero Breaker\n →Zero breaker χ",
-      "cpCost": 60,
-      "pbu": "A/S/D\nA+/S/D",
-      "aoe": "Area - Circle (M)",
-      "effects": "Pulls enemies in, 4 Turns DEF/ADF Down (M)\nRank 2 increases DEF/ADF Down to (L). [Obtained at level 120]"
-    },
-    {
-      "type": "C",
-      "name": "Tiger Charge",
+      "name": "Winding Gale",
       "cpCost": 80,
-      "pbu": "S+/D/A",
-      "aoe": "Single Target",
-      "effects": "Impede (100% chance), 1 Turn Balance Down 100%. [Obtained at level 108]"
-    },
-    {
-      "type": "S",
-      "name": "Rising Sun\n→Rising Nova",
-      "cpCost": 100,
-      "pbu": "4S/B\n4S+/A",
-      "aoe": "Area - Circle (LL)",
-      "effects": "\nRank 2 adds 100% Faint, [Obtained through Door of Trials.]"
-    }
-  ],
-  "MACHIAS": [
-    {
-      "type": "C",
-      "name": "Dread Breaker\n→Dread Breaker II",
-      "cpCost": 30,
-      "pbu": "A+/SS/D\nS/SS/D",
-      "aoe": "Area - Line (S+)",
-      "effects": "Impede (100% chance), 4 Turns DEF Down (L)\nRank 2 Increases power. [Obtained at level 130]"
-    },
-    {
-      "type": "C",
-      "name": "Petrification Shell II\n→Petrification Shell III",
-      "cpCost": 60,
-      "pbu": "B/C",
-      "aoe": "Area - Line (L)",
-      "effects": "Petrify (60% chance), 1 Turn Balance Down (100%)\nRank 2 Increases power. Petrify Chance increased to 80% [Obtained at level 140]"
-    },
-    {
-      "type": "C",
-      "name": "Burst Drive II",
-      "cpCost": 60,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (M)",
-      "effects": "Acceleration, EP+20%"
-    },
-    {
-      "type": "S",
-      "name": "Justice Bullet II\n→Justice Bullet III",
-      "cpCost": 100,
-      "pbu": "SSS+/C\n4S/C",
-      "aoe": "Area - Circle (LL+)",
-      "effects": "Random Status (100% chance)\nRank 2 Increases Random Status (120% chance) [Obtained at level 128]"
-    }
-  ],
-  "MILLIUM": [
-    {
-      "type": "C",
-      "name": "Artum Barrier\n→Artum Barrier EX ",
-      "cpCost": 50,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "1 Physical Guard\nAdds 1 extra Physical Guard [Obtained at level 105]"
-    },
-    {
-      "type": "C",
-      "name": "Valiant Cannon\n→Valiant Cannon II",
-      "cpCost": 30,
-      "pbu": "B/D/D\nB+/D/B+",
-      "aoe": "Area - Line (M+)",
-      "effects": "4 Turns STR+DEF Down (S)\nRank 2 increases debuffs to (M) [Obtained at level 126]"
-    },
-    {
-      "type": "C",
-      "name": "Megaton Press",
-      "cpCost": 60,
-      "pbu": "S/SS/D",
-      "aoe": "Area - Circle (M+)",
-      "effects": "Delay+4, 4 Turns MOV Down (M)"
-    },
-    {
-      "type": "C",
-      "name": "Caladbolg M",
-      "cpCost": 80,
-      "pbu": "A/D/S",
+      "pbu": "A+/Physical",
       "aoe": "Area - Circle (L)",
-      "effects": "Faint (60% chance)"
+      "effects": "Guaranteed to hit the enemy; SIDE Positional - Increased damage."
     },
     {
       "type": "S",
-      "name": "Terra Breaker\n→Terra Breaker Ω ",
+      "name": "Zero Moon Flash",
       "cpCost": 100,
-      "pbu": "4S/C\n4S+/B",
+      "pbu": "SS/Physical",
       "aoe": "All",
-      "effects": "Faint (100% chance)\nIncreases Faint chance to 120% [Obtained at level 142]"
+      "effects": "Delay (L)."
     }
   ],
-  "MUSSE": [
+  "WALTER": [
     {
       "type": "C",
-      "name": "Oiseau Bleu II\n→Oiseau Azur",
+      "name": "Razor Hurrricane",
       "cpCost": 30,
-      "pbu": "C+/C/D\nB/A/D",
-      "aoe": "Area - Line (S+)",
-      "effects": "Freeze+Petrify (20% chance)\nIncreases Freeze+Petrify chance to 30% [Obtained from Door of Trials]"
-    },
-    {
-      "type": "C",
-      "name": "Saphir Rain\n→ Saphir Rain II",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (M+)",
-      "effects": "Cures all Statuses+Stat Down+K.O., HP 25% Recovery\nRank 2 increases HP Recovery to 30% [Obtained at level 121 "
-    },
-    {
-      "type": "C",
-      "name": "Cutie Bullet EX",
-      "cpCost": 40,
-      "pbu": "A/C/S",
-      "aoe": "Single Enemy",
-      "effects": "Confuse (30% chance), Charm (90% chance) [Obtained at level 110]"
-    },
-    {
-      "type": "C",
-      "name": "Moulin Rouge II",
-      "cpCost": 80,
-      "pbu": "S/D/C+",
-      "aoe": "Area - Circle (L+)",
-      "effects": "Burn (100% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Pentawa Shot",
-      "cpCost": 60,
-      "pbu": "B+/D/D",
-      "aoe": "Area - Circle (LL)",
-      "effects": "Pulls enemies in, Mute (120% chance)"
-    },
-    {
-      "type": "S",
-      "name": "Brilliant Shot\n→Brilliant Shot II",
-      "cpCost": 100,
-      "pbu": "SS+/D\n4S/D",
-      "aoe": "Area - Circle (LL)\nArea - Circle (LL+)",
-      "effects": "Random Status (100% chance)\nObtained at level 102"
-    },
-    {
-      "type": "S",
-      "name": "Galaxia Volley\n→Galaxia Volley II",
-      "cpCost": 100,
-      "pbu": "SSS+/D\n4S+/D",
-      "aoe": "Area - Line (M+)",
-      "effects": "Rank 2 adds Random Status (120% chance) [Obtained at level 135]"
-    }
-  ],
-  "NADIA": [
-    {
-      "type": "C",
-      "name": "Nemesis Pierce\n→Nemesis Pierce II",
-      "cpCost": 30,
-      "pbu": "C/D/B\nB/D/A",
-      "aoe": "Area - Line (S)",
-      "effects": "Impede (100% chance), Nightmare+Burn (80% chance)\nRank 2 increases chance of Nightmare or Burn to 100% [Obtained at level 112]"
-    },
-    {
-      "type": "C",
-      "name": "Wellness Injection\n→Wellness Injection II",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (M)",
-      "effects": "Cures all statuses+Stat Down+K.O, HP 30% Recovery\nRank 2 increases HP Recovery to 35% [Obtained at level 132]"
-    },
-    {
-      "type": "C",
-      "name": "Teddy Thread",
-      "cpCost": 80,
-      "pbu": "S/A/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "2 Turns \"Weak\" (Enemy receives more damage from Arts) Deathblow (30% chance) [Obtained at level 107]"
-    },
-    {
-      "type": "S",
-      "name": "Na's Special\n→Na's Super Special",
-      "cpCost": 100,
-      "pbu": "SSS+/D",
-      "aoe": "All",
-      "effects": "Random status ailment (100% chance)"
-    }
-  ],
-  "NOEL": [
-    {
-      "type": "C",
-      "name": "Electromagnetic Net\n→Electromagnetic Net II",
-      "cpCost": 30,
-      "pbu": "D/D/C\nD+/D/C+",
-      "aoe": "Area - Circle (M)",
-      "effects": "Impede (100% chance), 4 Turns MOV Down (M) \nRank 2 increases power and adds 40% Seal. Also increases MOV Down to (L)"
-    },
-    {
-      "type": "C",
-      "name": "Smart Missile\n→Smart Missile II",
-      "cpCost": 60,
-      "pbu": "A/A/D\nA+/A+/D",
-      "aoe": "Area - Circle (M+)",
-      "effects": "Random status ailment infliction (80% chance), 1 Turn Balance Down 50%\nRank 2 Increases power and Status ailment infliction to 100% and 1 turn Balance down 100%"
-    },
-    {
-      "type": "C",
-      "name": "Rebellion Shot",
-      "cpCost": 80,
-      "pbu": "S/C/C",
-      "aoe": "Area - Circle (M)",
-      "effects": "4 Turns Str/Def Down. Obtained at level 119"
-    },
-    {
-      "type": "S",
-      "name": "Wild Stampede\n→Wild Stampede",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/D",
-      "aoe": "All",
-      "effects": "4 Turns All Stats Down (S)\nRank 2 Increases Power All Stats Down to (M). Obtained at level 140"
-    }
-  ],
-  "RANDY": [
-    {
-      "type": "C",
-      "name": "Deadly Storm\n→Deadly Storm II",
-      "cpCost": 40,
-      "pbu": "B/A/D+\nB+/A/D+",
-      "aoe": "Area - Line (M) ",
-      "effects": "Deathblow (20% chance)\nRank 2 Increases Power and Deathblow (30%) Chance. [Obtained at level 135]"
-    },
-    {
-      "type": "C",
-      "name": "Crimson Gale\n→Crimson Gale II",
-      "cpCost": 60,
-      "pbu": "A+/C/B\nS/C/B",
-      "aoe": "Area - Circle (L)\nRank 2 Increases to (L+)",
-      "effects": "Burn (60% chance)\nRank 2 Increases Power and Burn (80%) Chance. [Obtained at level 176]"
-    },
-    {
-      "type": "C",
-      "name": "War Cry\n→War Cry II",
-      "cpCost": 0,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "HP-30%, CP+80\nRank 2 Increases CP Gain to 100. [Obtained at level 139]"
-    },
-    {
-      "type": "C",
-      "name": "Carnage Raid",
-      "pbu": "S+/C/B",
-      "aoe": "Area - Circle (S)",
-      "effects": "30% Increased Base Crit Chance, 4 Turns Random Stat Down (L), [Obtained at level 127]"
-    },
-    {
-      "type": "S",
-      "name": "Berserker\n→True Berserker",
-      "cpCost": 100,
-      "pbu": "4S+/C\n5S+/C",
-      "aoe": "All",
-      "effects": "Rank 2 Increases Power and adds 4 Turns DEF Down (M). [Obtained through Door of Trials.]"
-    }
-  ],
-  "REAN": [
-    {
-      "type": "C",
-      "name": "True Crimson Slash\n→Ardent Crimson Slash\n→→Zenith Crimson Slash",
-      "cpCost": 20,
-      "pbu": "D+/D/D\nC/D/D\nC+/D/D",
-      "aoe": "Area - Line (M)\nArea - Line (M+) (All Upgrades)",
-      "effects": "Impede (100% chance), Burn (30% chance)\nIncreases Burn chance to 40% [Obtained at level 103]\nIncreases Burn chance to 60% [Used while in SU after unlocking Ardent]"
-    },
-    {
-      "type": "C",
-      "name": "Moonless Blade\n→Ardent Moonless Blade\n→→Zenith Moonless Blade",
-      "cpCost": 40,
-      "pbu": "B/B/A\nB+/B/A\nA/B+/A+",
-      "aoe": "Area - Circle (M)",
-      "effects": "4 Turns DEF Down (S)\nObtained at level 112\nIncreases debuff to (L) [Used while in SU after unlocking Ardent]"
-    },
-    {
-      "type": "C",
-      "name": "True Helix\n→Ardent Helix",
-      "cpCost": 60,
-      "pbu": "S/A+/C\nS+/A+/C",
-      "aoe": "Area - Circle (S)",
-      "effects": "Critical 25%\nCritical 30%. This version is used while in SU."
-    },
-    {
-      "type": "C",
-      "name": "Spirit Unification\n→Clear Mind Spirit Unification",
-      "cpCost": 100,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "3 Turns STR+DEF+SPD Up (L)\nClear Mind increases buffs by 1 Turn [Obtained in Post-Game after saving Clear Data.]"
-    },
-    {
-      "type": "S",
-      "name": "Seventh Slash: Shredded Leaves\n→Flashing Slash: Shredded Leaves\n→→Termination Slash: Heavenly Leaves",
-      "cpCost": 100,
-      "pbu": "4S/C\n4S+/B",
-      "aoe": "All",
-      "effects": "4 Turns SPD Down (L) [Learned at level 105] \nIncreases debuff by 1 turn [Used while in SU]\nIncreases debuff by 1 turn [Used while in Clear Mind SU] "
-    },
-    {
-      "type": "S",
-      "name": "Fathomless Blade\n→True Fathomless Blade\n→→Peerless Fathomless Blade",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/C\n5S+/B",
-      "aoe": "All",
-      "effects": "All Cancel (Same effect for each upgrade/variant)\nObtained from Door of Trials\nUsed while in SU after unlocking True"
-    }
-  ],
-  "RENNE": [
-    {
-      "type": "C",
-      "name": "Calamity Throw\n→Calamity Throw II",
-      "cpCost": 20,
-      "pbu": "C+/A/D+\nB/A+/D+",
+      "pbu": "C/Physical",
       "aoe": "Area - Line (M)",
-      "effects": "Deathblow (40% chance)\nRank 2 increases Deathblow chance to 60% [Obtained at level 112]"
+      "effects": "Impedes enemies."
     },
     {
       "type": "C",
-      "name": "Rennede",
-      "cpCost": 80,
-      "pbu": "S/D/A",
-      "aoe": "Area - Line (M+)",
-      "effects": "Deathblow+Nightmare (20% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Zodiac Code",
+      "name": "Vulgar Claw",
       "cpCost": 50,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "4 Turns ATS+ADF+SPD Up (M), EP 20% Recovery, BP+1"
+      "pbu": "B/Physical",
+      "aoe": "Area - Cone (M)",
+      "effects": "Inflicts Slow."
+    },
+    {
+      "type": "C",
+      "name": "Demon Dance",
+      "cpCost": 70,
+      "pbu": "A/Physical",
+      "aoe": "Single",
+      "effects": "Attack and Defense Up; Quick."
     },
     {
       "type": "S",
-      "name": "Nemesis Party\n→Nemesis Party II",
+      "name": "Alcatraz Blow",
       "cpCost": 100,
-      "pbu": "4S/D\n4S+/D",
-      "aoe": "All",
-      "effects": "Deathblow (50% chance)\nRank 2 increases Deathblow chance to 70% [Obtained from Door of Trials]"
+      "pbu": "SS/Physical",
+      "aoe": "Area - Line",
+      "effects": "Inflicts Defense and Magic Defense Down."
     }
   ],
-  "RIXIA": [
-    {
-      "type": "C",
-      "name": "Dragon Claw Slash\n→True Dragon Claw Slash",
-      "cpCost": 40,
-      "pbu": "Ex2/D/B\nDx2/D/B",
-      "aoe": "Area - Circle (L) ",
-      "effects": "Pulls enemies in, Impede (100% chance), Delay+6\nRank 2 increases power and Delay to +8. Obtained at level 106."
-    },
+  "YIN": [
     {
       "type": "C",
       "name": "Bright Moon Ring",
-      "cpCost": 60,
-      "pbu": "S/S/D",
-      "aoe": "Area - Line (M) ",
-      "effects": "Mute+Faint+Deathblow (20% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Moonlight Butterfly\n→True Moonlight Butterfly",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "2 Turns Stealth. 4 Turns STR+SPD Up (M)\nRank 2 Increases STR+SPD Up to (L). Obtained at level 138."
-    },
-    {
-      "type": "S",
-      "name": "Paraselene Dance",
-      "cpCost": 100,
-      "pbu": "4S+/D",
-      "aoe": "All",
-      "effects": "N/A"
-    }
-  ],
-  "SARA": [
-    {
-      "type": "C",
-      "name": "Thundering Roar EX",
       "cpCost": 30,
-      "pbu": "C/D/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "Seal (60% chance), 4 Turns SPD Down (L)"
-    },
-    {
-      "type": "C",
-      "name": "True Flash\n→Flash EX",
-      "cpCost": 60,
-      "pbu": "S/SS/D\nS+/SS/D",
-      "aoe": "Area - Circle (M)",
-      "effects": "Delay+4, Burn (30% chance)\nIncreases Delay to 6, Burn chance to 60% [Obtained at level 127]"
-    },
-    {
-      "type": "C",
-      "name": "Lightning Charge EX",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "3 Turns Insight, 4 Turns STR+SPD Up (L)"
-    },
-    {
-      "type": "S",
-      "name": "Northern Lightning II\n→Northern Lightning III",
-      "cpCost": 100,
-      "pbu": "4S/D",
-      "aoe": "All",
-      "effects": "Seal (100% chance)\nRank 3 increases Seal chance to 150% [Obtained at level 115]"
-    }
-  ],
-  "SHARON": [
-    {
-      "type": "C",
-      "name": "Binding Chains",
-      "cpCost": 40,
-      "pbu": "Dx2/D/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "Delay+4, Seal (60%)"
-    },
-    {
-      "type": "C",
-      "name": "Shadow Stitch\n→Shadow Stitch II",
-      "cpCost": 80,
-      "pbu": "Dx2/A/C\nCx2/A/C",
-      "aoe": "Area - Circle (L)",
-      "effects": "4 Turns SPD/MOV Down (M)\nRank 2 Increases SPD/MOV Down to (L) [Obtained at level 126]"
-    },
-    {
-      "type": "C",
-      "name": "Death Butterfly",
-      "cpCost": 60,
-      "pbu": "C/B",
-      "aoe": "Area - Circle (S)",
-      "effects": "Death (40%), Nightmare (40%) All stats Down 3 turns (L)"
-    },
-    {
-      "type": "S",
-      "name": " Death's Embrace\n→True Death's Embrace",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/D",
-      "aoe": "All",
-      "effects": "Instant Death 100%\nRank 2 Increases Instant Death to 120% [Obtained at level 134]"
-    }
-  ],
-  "SWIN": [
-    {
-      "type": "C",
-      "name": "Carving Blade\n→Carving Blade EX",
-      "cpCost": 20,
-      "pbu": "D+/D/D\nC/D/D",
-      "aoe": "Area - Circle (S+)",
-      "effects": "3 Turns [Marking - 100% damage next hit]\nRank 2 increases Marking by 1 turn [Obtained at level 114] "
-    },
-    {
-      "type": "C",
-      "name": "Revelation\n→Revelation EX",
-      "cpCost": 60,
-      "pbu": "S/A/D\nS+/A/D",
-      "aoe": "Single Enemy",
-      "effects": "3 Turns [Marking - 60% damage next hit] Seal (40% chance)\nRank 2 increases Marking by 1 turn, Seal chance to 60% [Obtained at level 134]"
-    },
-    {
-      "type": "C",
-      "name": "Quick Zone",
-      "cpCost": 30,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "4 Turns STR+SPD Up (S), CP+20 [Obtained at level 107]"
-    },
-    {
-      "type": "S",
-      "name": "Three of Swords\n→Three of Swords Ace",
-      "cpCost": 100,
-      "pbu": "4S/B\n4S+/B+",
-      "aoe": "Area - Circle (LL)",
-      "effects": "3 Turns [Marking - 100% damage next hit]\nRank 2 increases Marking by 1 turn [Obtained from Door of Trials]"
-    }
-  ],
-  "TIO": [
-    {
-      "type": "C",
-      "name": "Analyzer",
-      "cpCost": 20,
-      "pbu": "N/A",
-      "aoe": "Single Enemy",
-      "effects": "Analyzes the target."
-    },
-    {
-      "type": "C",
-      "name": "Beam Zanber",
-      "cpCost": 30,
-      "pbu": "C+/D/B",
-      "aoe": "Area - Circle (M) ",
-      "effects": "Impede (100% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Absolute Zero",
-      "cpCost": 80,
-      "pbu": "S/S/D",
-      "aoe": "Area - Circle (M) ",
-      "effects": "Freeze (80% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Energy Circle\n→Energy Circle II",
-      "cpCost": 60,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (LL)",
-      "effects": "30% HP Recovery, 3 turns 20% HP Recovery,  Cure all status abnormalities. [Obtained at level 112].\nRank 2 Increases Initial HP recovery to 35%. [Obtained at level 134]."
-    },
-    {
-      "type": "C",
-      "name": " Call Zeit",
-      "cpCost": "EP 300",
-      "pbu": "S/C/C",
-      "aoe": "Area - Circle (L)",
-      "effects": "Delay +8, All Cancel"
-    },
-    {
-      "type": "S",
-      "name": "Ether Strike\n→ Ether Debuster",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/C",
-      "aoe": "All",
-      "effects": "Rank 2 adds 4 turns ADF Down (M) [Obtained through Door of Trials]"
-    }
-  ],
-  "TITA": [
-    {
-      "type": "C",
-      "name": "Hard Straight II",
-      "cpCost": 30,
-      "pbu": "A/B/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "N/A"
-    },
-    {
-      "type": "C",
-      "name": "Chaff Grenade\n→Chaff Grenade II",
-      "cpCost": 40,
-      "pbu": "C+/D/D\nB/D/D",
-      "aoe": "Area - Circle (LL)",
-      "effects": "4 turns stat down (L)\nRank 2 Increases power. [Obtained at level 112]"
-    },
-    {
-      "type": "C",
-      "name": "Heavy Accel",
-      "cpCost": 90,
-      "pbu": "S+/S+/A",
-      "aoe": "Area - Line (L)",
-      "effects": "Delay +4, Faint (50%). Impede (100%)"
-    },
-    {
-      "type": "C",
-      "name": "Vital Cannon",
-      "cpCost": 60,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (L)",
-      "effects": "HP 60%/CP+30, All status abnormalities cured."
-    },
-    {
-      "type": "S",
-      "name": "Omega Impulse\n→Omega Impulse II",
-      "cpCost": 100,
-      "pbu": "4S+/D\n5S/D",
-      "aoe": "Area - Line (XL)",
-      "effects": "Rank 2 Increases power. [Obtained through Door of Trials]"
-    }
-  ],
-  "TOWA": [
-    {
-      "type": "C",
-      "name": "Detector",
-      "cpCost": 20,
-      "pbu": "N/A",
-      "aoe": "Single",
-      "effects": "Analyze, 4 Turns ATS/ADF Down (L)"
-    },
-    {
-      "type": "C",
-      "name": "Meteor Attack\n→True Meteor Attack ",
-      "cpCost": 60,
-      "pbu": "A+/D/C+\nS/D/B",
+      "pbu": "C/Physical",
       "aoe": "Area - Line (M)",
-      "effects": "Seal (100%)\nRank 2 Increases Seal to 120%. [Obtained at level 124]"
+      "effects": "Delay (M)."
     },
     {
       "type": "C",
-      "name": "Energy Rain",
+      "name": "Flame Talisman",
+      "cpCost": 40,
+      "pbu": "N/A",
+      "aoe": "Support: Single",
+      "effects": "Quick (L); CP Recovery when acting."
+    },
+    {
+      "type": "C",
+      "name": "Swallow Talon Slash",
+      "cpCost": 60,
+      "pbu": "A/Physical",
+      "aoe": "Area - Circle (M)",
+      "effects": "N/A"
+    },
+    {
+      "type": "S",
+      "name": "Phantom Haze Dance",
+      "cpCost": 100,
+      "pbu": "S+/Physical",
+      "aoe": "All",
+      "effects": "Beguiles enemies."
+    }
+  ],
+  "ZIN": [
+    {
+      "type": "C",
+      "name": "Heavenly Fist",
       "cpCost": 50,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (L+)",
-      "effects": "Recovery / HP / EP 25%"
-    },
-    {
-      "type": "S",
-      "name": "Rainbow Shot\n→Rainbow Shot II",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/D",
-      "aoe": "All",
-      "effects": "All stats down for 4 turns (S)\nRank 2 Increases All stats down for 4 turns (M) [Obtained at level 132]"
-    }
-  ],
-  "WAZY": [
-    {
-      "type": "C",
-      "name": "Phantom Rush\n→Phantom Rush II",
-      "cpCost": 30,
-      "pbu": "B/D/S\nB+/D/S",
-      "aoe": "Area - Circle (S+)",
-      "effects": "Confuse (30% chance), Delay+4 \nRank 2 Increases Confuse to 50% and Delay to +6. Obtained at level 137"
+      "pbu": "B/Physical",
+      "aoe": "Area - Circle (S)",
+      "effects": "Delay (M); BACK Positional - Increased damage."
     },
     {
       "type": "C",
-      "name": "Seventh Shot\n→Seventh Shot II",
+      "name": "Lightning Kick",
       "cpCost": 60,
-      "pbu": "B/D/D\nB+/D/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "Restores HP + CP Proportionate to damage dealt\nRank 2 Increases power. Obtained through Door of Trials."
+      "pbu": "A/Physical",
+      "aoe": "Area - Circle (M)",
+      "effects": "Inflicts Seal."
     },
     {
       "type": "C",
-      "name": "Deadly Heaven",
-      "cpCost": 80,
-      "pbu": "S+/S/D",
-      "effects": "35% Increased Base Crit Chance, Nightmare (40%) Obtained at level 111."
-    },
-    {
-      "type": "S",
-      "name": "Akashic Arm\n→Akashic Arm",
-      "cpCost": 100,
-      "pbu": "5S/C\n5S+/B",
-      "aoe": "Area - Circle (L+) ",
-      "effects": "All Cancel\nRank 2 Increases Power. Obtained at level 141."
-    }
-  ],
-  "ALFIN": [
-    {
-      "type": "C",
-      "name": "Detector γ",
-      "cpCost": 30,
-      "pbu": "N/A",
-      "aoe": "Single Enemy",
-      "effects": "2 Turns Weak, 4 Turns SPD Down (L), Delay+6"
-    },
-    {
-      "type": "C",
-      "name": "Purity Ray\n→]Purity Ray II",
+      "name": "Dragon God's Honor",
       "cpCost": 40,
-      "pbu": "D\nC",
-      "aoe": "Area - Circle (L)",
-      "effects": "Blind (60% chance)\nRank 2 increases Blind chance to 80% [Obtained at level 112]"
-    },
-    {
-      "type": "C",
-      "name": "Princess Air",
-      "cpCost": 60,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (LL+)",
-      "effects": "AOE spreads out from Alfin. 4 Turns SPD Up (M), CP+40"
-    },
-    {
-      "type": "S",
-      "name": "Sacred Circle\n→Sacred Circle",
-      "cpCost": 100,
-      "pbu": "N/A",
-      "aoe": "All Allies",
-      "effects": "Physical Guard (If 200 CP also reflect Time magic), 3 Turns CP+30\nRank 2 increases CP recovery to 40 per turn [Obtained at level 133]"
-    }
-  ],
-  "ANGELICA": [
-    {
-      "type": "C",
-      "name": "Razor Bullet\n→Razor Bullet II",
-      "cpCost": 30,
-      "pbu": "B+/D/D\nA/D/D",
-      "aoe": "Area - Line (S+)",
-      "effects": "Impede (100% chance), Delay+2\nRank 2 increases Delay to 4 [Obtained at level 112]"
-    },
-    {
-      "type": "C",
-      "name": "Zero Impact",
-      "cpCost": 60,
-      "pbu": "SS/SS/S",
-      "aoe": "Single Enemy",
-      "effects": "Faint (50% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Dragon Boost",
-      "cpCost": 30,
       "pbu": "N/A",
       "aoe": "Self",
-      "effects": "4 Turns STR+DEF+SPD Up (M)"
+      "effects": "HP Recovery; Attack and Defense Up (L)"
     },
     {
       "type": "S",
-      "name": "Dragon Kick\n→Dragon Kick II",
+      "name": "Arhat Mountain Palm",
       "cpCost": 100,
-      "pbu": "4S/A\n4S+/A",
+      "pbu": "SS/Physical",
       "aoe": "Area - Circle (LL)",
-      "effects": "Rank 2 adds Faint (150% chance) [Obtained at level 132]"
-    }
-  ],
-  "AURELIA": [
-    {
-      "type": "C",
-      "name": "Dynast Sunder",
-      "cpCost": 40,
-      "pbu": "A/D/A",
-      "aoe": "Area - Line (L)",
-      "effects": "4 Turns STR/ATS Down (L)"
-    },
-    {
-      "type": "C",
-      "name": "Prismatic Tetra Blade\n→Zenith Prismatic Tetra Blade",
-      "cpCost": 80,
-      "pbu": "S/SS/D\nS+/SS/D",
-      "aoe": "Area - Circle (LL)",
-      "effects": "Petrify+Freeze+Burn+Sleep (20% chance)\nIncreases chance to 40%"
-    },
-    {
-      "type": "S",
-      "name": "Rakshasa Onslaught\n→ Shining Rakshasa Onslaught",
-      "cpCost": 100,
-      "pbu": "5S/D\n5S+/C",
-      "aoe": "All",
-      "effects": "2 Turns All Stats Down (L)\nIncreases debuffs by 1 turn"
-    }
-  ],
-  "GEORGE": [
-    {
-      "type": "C",
-      "name": "Detector Σ",
-      "cpCost": 20,
-      "pbu": "N/A",
-      "aoe": "Single Enemy",
-      "effects": "4 Turns Balance Down 100%, 4 Turns All Stats Down (S), Delay+2"
-    },
-    {
-      "type": "C",
-      "name": "Gram Cannon\n→Gram Cannon II",
-      "cpCost": 40,
-      "pbu": "B/D/B\nB+/D/B+",
-      "aoe": "Area - Line (M+)",
-      "effects": "Rank 2 adds 4 Turns MOV Down (M)"
-    },
-    {
-      "type": "C",
-      "name": "Caladbolg",
-      "cpCost": 60,
-      "pbu": "S+/S+/C",
-      "aoe": "Area - Circle (M)",
-      "effects": "Faint (50% chance)"
-    },
-    {
-      "type": "S",
-      "name": "Dverg Hammer\n→Dverg Hammer II",
-      "cpCost": 100,
-      "pbu": "4S/C\n4S+/B",
-      "aoe": "All",
-      "effects": "Rank 2 obtained at level 133"
-    }
-  ],
-  "OLIVIER": [
-    {
-      "type": "C",
-      "name": "Quickdraw",
-      "cpCost": 30,
-      "pbu": "D+/D/D+",
-      "aoe": "Area - Circle (L)",
-      "effects": "Impede (100% chance), Delay+4"
-    },
-    {
-      "type": "C",
-      "name": "Requiem Shot",
-      "cpCost": 60,
-      "pbu": "A+/S/D",
-      "aoe": "Area - Line (S+)",
-      "effects": "Nightmare+Confuse (80% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Happy Trigger\n→Happy Trigger II",
-      "cpCost": 40,
-      "pbu": "N/A",
-      "aoe": "Area - Circle (LL)",
-      "effects": "HP 60% Recovery \nRank 2 increases HP Recovery to 70%"
-    },
-    {
-      "type": "S",
-      "name": "Akashic Star\n→Akashic Star II",
-      "cpCost": 100,
-      "pbu": "4S/D\n4S+/C",
-      "aoe": "All",
-      "effects": "4 Turns ADF Down (S)\nRank 2 increases the debuff to (M)"
-    }
-  ],
-  "ROSELIA": [
-    {
-      "type": "C",
-      "name": "Bloody Fang",
-      "cpCost": 80,
-      "pbu": "A/D/D",
-      "aoe": "Area - Circle (M)",
-      "effects": "Depending on damage, recovers allies HP and CP"
-    },
-    {
-      "type": "C",
-      "name": "Crimson Lancer II",
-      "cpCost": 40,
-      "pbu": "B+/B+/B+",
-      "aoe": "Area - Line (M+)",
-      "effects": "Impede (100% chance), Delay+10"
-    },
-    {
-      "type": "S",
-      "name": "Ultimate Magic: Red Moon\n→ Great Magic: Red Moon",
-      "cpCost": 100,
-      "pbu": "4S+/D\n5S/D",
-      "aoe": "All",
-      "effects": "Burn (150% chance)\nIncreases Burn chance to 200% [Obtained at level 135]"
-    }
-  ],
-  "TOVAL": [
-    {
-      "type": "C",
-      "name": "Double Strike",
-      "cpCost": 20,
-      "pbu": "C/D/B",
-      "aoe": "Single Enemy",
-      "effects": "Impede (100% chance), Seal (20% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Accel Hit II",
-      "cpCost": 40,
-      "pbu": "B+/B+/D",
-      "aoe": "Single Enemy",
-      "effects": "Faint (30% chance), 3 Turns Balance Down 100%"
-    },
-    {
-      "type": "C",
-      "name": "Sphere Break",
-      "cpCost": 60,
-      "pbu": "A/D/D",
-      "aoe": "Area - Circle (M)",
-      "effects": "Mute (100% chance), 4 Turns ADF Down (M)"
-    },
-    {
-      "type": "S",
-      "name": "Rebellion Storm II",
-      "cpCost": 100,
-      "pbu": "4S+/D",
-      "aoe": "All",
-      "effects": "4 Turns ATS Down (M)"
-    }
-  ],
-  "VICTOR": [
-    {
-      "type": "C",
-      "name": "True Radiant Cleaver",
-      "cpCost": 30,
-      "pbu": "A/D/SS",
-      "aoe": "Area - Line (S+)",
-      "effects": "4 Turns SPD+MOV Down (L)"
-    },
-    {
-      "type": "C",
-      "name": "True Radiant Wings",
-      "cpCost": 30,
-      "pbu": "N/A",
-      "aoe": "Self",
-      "effects": "3 Turns Sword Flash, 4 Turns STR Up (L), HP 10% Recovery"
-    },
-    {
-      "type": "C",
-      "name": "True Radiant Spin",
-      "cpCost": 60,
-      "pbu": "A+/A/C",
-      "aoe": "Area - Circle (L)",
-      "effects": "Pulls enemies in, Faint (80% chance)"
-    },
-    {
-      "type": "S",
-      "name": "Radiant Phoenix Slash",
-      "cpCost": 100,
-      "pbu": "5S+/D",
-      "aoe": "All",
-      "effects": "Faint (200% chance)"
-    }
-  ],
-  "VITA": [
-    {
-      "type": "C",
-      "name": "Dancing Blades",
-      "cpCost": 40,
-      "pbu": "C+/D/A",
-      "aoe": "Area - Circle (M)",
-      "effects": "Burn+Blind+Critical (25% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Frozen Prison",
-      "cpCost": 60,
-      "pbu": "B/A/D",
-      "aoe": "Area - Circle (M)",
-      "effects": "Freeze (100% chance)"
-    },
-    {
-      "type": "C",
-      "name": "Song of Grianos",
-      "cpCost": 80,
-      "pbu": "S/D/D",
-      "aoe": "All",
-      "effects": "Seal+Mute (100% chance)"
-    },
-    {
-      "type": "S",
-      "name": "Aria of the Abyss\n→Azure Aria of the Abyss",
-      "cpCost": 100,
-      "pbu": "4S+/D\n5S/D",
-      "aoe": "All",
-      "effects": "Upgrade adds Nightmare (200% chance)"
-    }
-  ],
-  "[SPOILERS, YOULL KNOW]": [
-    {
-      "type": "C",
-      "name": "xxxxx\n→xxxxx II",
-      "cpCost": 40,
-      "pbu": "B+/D/D\nA/D/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "Burn (70% chance), All Cancel. Becomes Chaos Flame while transformed.\nRank 2 increases Burn chance to 80%. [Obtained at level 210]"
-    },
-    {
-      "type": "C",
-      "name": "xxxxx\n→xxxxx II",
-      "cpCost": 60,
-      "pbu": "A+/A+/D\nS/S/D",
-      "aoe": "Area - Line (M)",
-      "effects": "Blaze (stronger Burn)+Deathblow (25% chance). Becomes Abyss Hounds while transformed.\nRank 2 increases chance to 30%. [Obtained at level 220]"
-    },
-    {
-      "type": "C",
-      "name": "xxxxx\n→xxxxx",
-      "cpCost": 80,
-      "pbu": "SS/D/S\nSSS/D/SS",
-      "aoe": "Area - Circle (M)",
-      "effects": "Burn+Faint+Nightmare (40% chance)\nIncreases chance to 60%. Used while transformed."
-    },
-    {
-      "type": "C",
-      "name": "xxxxx",
-      "cpCost": 200,
-      "pbu": "N/A",
-      "aoe": "N/A",
-      "effects": "Demon Transformation. 6 Turns STR+ATS+SPD Up (L), HP 150% Recovery, CP+100"
-    },
-    {
-      "type": "C",
-      "name": "xxxxx\n→xxxxx",
-      "cpCost": 40,
-      "pbu": "A+/D/D\nS/D/D",
-      "aoe": "Area - Circle (L)",
-      "effects": "Burn (90% chance), All Cancel.\nRank 2 increases Burn chance to 100%."
-    },
-    {
-      "type": "C",
-      "name": "xxxxx\n→xxxxx",
-      "cpCost": 60,
-      "pbu": "S+/S+/D\nSS/SS/D",
-      "aoe": "Area - Line (M)",
-      "effects": "Blaze+Deathblow (35% chance)\nRank 2 increases chance to 40%."
-    },
-    {
-      "type": "S",
-      "name": "xxxxx\n→xxxxx\n→→Ixxxxx",
-      "cpCost": 100,
-      "pbu": "5S/B\n5S+/A\n6S/S",
-      "aoe": "All",
-      "effects": "Burn (60% chance), All Cancel.\nRank 2 increases Burn chance to 80%. [Obtained from Door of Trials]\nRank 3 increases Burn chance to 100%. Used while transformed."
+      "effects": "Inflicts Defense and Magic Defense Down."
     }
   ]
 }
