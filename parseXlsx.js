@@ -15,9 +15,10 @@ function download(url, cb) {
 
 const sheetsToIgnore = ["Misc", "Minigames"];
 
-module.exports = function downloadAndParseTranslations(cb) {
+// doesnt seem to be working right now, will revisit this in future
+function downloadAndParseTranslations(cb) {
   download(
-    "https://docs.google.com/spreadsheets/d/1qnCazs0_I1mUusiSMhySvCLsqPrSnDBr9EFB8N6bY-w/export?format=xlsx",
+    "https://docs.google.com/spreadsheets/d/1odwcfUNGtu6vqeXBYmmBDsszQKfEmNPiOmQfqiT-XXM/export?format=xlsx",
     function xlsxToJson(buffer) {
       const file = xlsx.read(buffer, { type: "buffer" });
       const translations = {
@@ -44,6 +45,30 @@ module.exports = function downloadAndParseTranslations(cb) {
   downloadAndParseCombat();
 };
 
+function parseTranslations() {
+  // getting connection refused, not sure why, so i downloaded it and put it in the application for now
+  const file = xlsx.readFile('./resources/Kuro no Kiseki - English Translation - Release.xlsx');
+  const translations = {
+    ...Object.fromEntries(
+      file.SheetNames.filter(
+        (name) =>
+          !sheetsToIgnore.some((nameToIgnore) => name === nameToIgnore)
+      ).map((name) => [
+        name,
+        xlsx.utils
+          .sheet_to_json(file.Sheets[name], {
+            header: ["name", "en", "jp"],
+            blankrows: true,
+          })
+          .slice(name === "Prologue" ? 17 : 1),
+      ])
+    ),
+  };
+  saveAppData("translation.json", { date: new Date(), ...translations });
+
+  downloadAndParseCombat();
+};
+
 function saveAppData(name, content) {
   const appDataDirPath = getAppDataPath();
 
@@ -62,3 +87,5 @@ function saveAppData(name, content) {
     }
   });
 }
+
+module.exports = parseTranslations

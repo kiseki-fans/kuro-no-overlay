@@ -67,6 +67,14 @@
       "effects": "HP Recovery (M); Removes all Status Ailments.\nObtained at level 42."
     },
     {
+      "type": "C",
+      "name": "Jibreel Guard",
+      "cpCost": 70,
+      "pbu": "N/A",
+      "aoe": "Support - Circle (M)",
+      "effects": "Damage Shield: 2000 HP; HP Recovery"
+    },
+    {
       "type": "S",
       "name": "Brilliant Halo",
       "cpCost": 100,
